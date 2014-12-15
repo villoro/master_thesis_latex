@@ -1,0 +1,46 @@
+\documentclass{book}
+
+\usepackage[printonlyused]{acronym}
+\usepackage{hyperref}
+\usepackage{glossaries}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\renewcommand{\contentsname}{Sumari}
+\renewcommand{\listtablename}{Llista de taules}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Taula} 
+
+\title{Titol}
+\author{Arnau Villoro Bort}
+
+\makeglossaries
+
+%------------------------------------------------------------------
+\begin{document}
+
+\maketitle
+
+\chapter*{Resum} \label{sec:Resum}
+\addcontentsline{toc}{chapter}{Resum}
+Aquí anirà el resum.
+
+\tableofcontents
+
+\include{glossary}
+\include{prefaci}
+\include{introduccio}
+\include{10_UX}
+\include{15_apps}
+
+
+\section{Estudi de la meva app}
+
+%mirar invision app (web per a fer dissenys)
+\section{Conclusions}
+\section{Agraïments}
+
+\include{bibliography}
+
+\end{document}
