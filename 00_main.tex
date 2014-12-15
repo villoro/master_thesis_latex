@@ -6,6 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{enumitem}
 \usepackage{graphicx}
+\usepackage{geometry}
 
 \renewcommand{\contentsname}{Sumari}
 \renewcommand{\listtablename}{Llista de taules}
@@ -19,6 +20,7 @@
 
 %------------------------------------------------------------------
 \begin{document}
+\frontmatter
 
 \maketitle
 
@@ -30,6 +32,9 @@ Aquí anirà el resum.
 
 \include{glossary}
 \include{prefaci}
+
+
+\mainmatter
 \include{introduccio}
 \include{10_UX}
 \include{15_apps}

@@ -1,24 +1,24 @@
-\contentsline {chapter}{Resum}{3}{chapter*.1}
-\contentsline {chapter}{Glossari}{7}{chapter*.4}
-\contentsline {chapter}{\numberline {1}Prefaci}{13}{chapter.1}
-\contentsline {section}{\numberline {1.1}Origen del projecte}{13}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Motivaci\IeC {\'o}}{13}{subsection.1.1.1}
-\contentsline {chapter}{\numberline {2}Introducci\IeC {\'o}}{15}{chapter.2}
-\contentsline {section}{\numberline {2.1}Objectius del projecte}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Abast del projecte}{15}{section.2.2}
-\contentsline {section}{\numberline {2.3}Que s'ent\IeC {\'e}n per Experi\IeC {\`e}ncia d'Usuari}{17}{section.2.3}
-\contentsline {section}{\numberline {2.4}Com s'estudia l'\ac {UX}?}{17}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}An\IeC {\`a}lisi}{18}{subsection.2.4.1}
-\contentsline {subsubsection}{Investigaci\IeC {\'o} contextual}{18}{section*.10}
-\contentsline {subsubsection}{An\IeC {\`a}lisi contextual}{19}{section*.11}
-\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments de disseny d'interacci\IeC {\'o}}{20}{section*.13}
-\contentsline {subsubsection}{Construcci\IeC {\'o} de models de disseny-informaci\IeC {\'o}??}{21}{section*.14}
-\contentsline {subsection}{\numberline {2.4.2}Disseny}{21}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Implementaci\IeC {\'o}}{21}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Avaluaci\IeC {\'o}}{21}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Aplicacions existents}{22}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Aplicacions per enregistrar despeses/ingressos}{22}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Aplicacions per gestionar despeses en grup}{23}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Estudi de la meva app}{24}{section.2.6}
-\contentsline {section}{\numberline {2.7}Conclusions}{24}{section.2.7}
-\contentsline {section}{\numberline {2.8}Agra\IeC {\"\i }ments}{24}{section.2.8}
+\contentsline {chapter}{Resum}{iii}{chapter*.1}
+\contentsline {chapter}{Glossari}{vii}{chapter*.4}
+\contentsline {chapter}{Prefaci}{xiii}{chapter*.8}
+\contentsline {section}{\numberline {0.1}Origen del projecte}{xiii}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Motivaci\IeC {\'o}}{xiii}{subsection.0.1.1}
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objectius del projecte}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Abast del projecte}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Que s'ent\IeC {\'e}n per Experi\IeC {\`e}ncia d'Usuari}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Com s'estudia l'\ac {UX}?}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}An\IeC {\`a}lisi}{3}{subsection.1.4.1}
+\contentsline {subsubsection}{Investigaci\IeC {\'o} contextual}{3}{section*.11}
+\contentsline {subsubsection}{An\IeC {\`a}lisi contextual}{3}{section*.12}
+\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments de disseny d'interacci\IeC {\'o}}{5}{section*.14}
+\contentsline {subsubsection}{Construcci\IeC {\'o} de models de disseny-informaci\IeC {\'o}??}{5}{section*.15}
+\contentsline {subsection}{\numberline {1.4.2}Disseny}{5}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Implementaci\IeC {\'o}}{5}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}Avaluaci\IeC {\'o}}{5}{subsection.1.4.4}
+\contentsline {section}{\numberline {1.5}Aplicacions existents}{6}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Aplicacions per enregistrar despeses/ingressos}{6}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Aplicacions per gestionar despeses en grup}{7}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Estudi de la meva app}{8}{section.1.6}
+\contentsline {section}{\numberline {1.7}Conclusions}{8}{section.1.7}
+\contentsline {section}{\numberline {1.8}Agra\IeC {\"\i }ments}{8}{section.1.8}
