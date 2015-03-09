@@ -19,6 +19,9 @@
 \contentsline {section}{\numberline {1.5}Aplicacions existents}{6}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Aplicacions per enregistrar despeses/ingressos}{6}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Aplicacions per gestionar despeses en grup}{7}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Estudi de la meva app}{8}{section.1.6}
-\contentsline {section}{\numberline {1.7}Conclusions}{8}{section.1.7}
-\contentsline {section}{\numberline {1.8}Agra\IeC {\"\i }ments}{8}{section.1.8}
+\contentsline {chapter}{\numberline {2}Estudi \ac {UX}}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}An\IeC {\`a}lisi}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Investigaci\IeC {\'o} contextual}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}An\IeC {\`a}lisi contextual}{9}{subsection.2.1.2}
+\contentsline {chapter}{\numberline {3}Conclusions}{11}{chapter.3}
+\contentsline {chapter}{\numberline {4}Agra\IeC {\"\i }ments}{13}{chapter.4}
