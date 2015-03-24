@@ -11,8 +11,8 @@
 \contentsline {subsection}{\numberline {1.4.1}An\IeC {\`a}lisi}{3}{subsection.1.4.1}
 \contentsline {subsubsection}{Investigaci\IeC {\'o} contextual}{3}{section*.11}
 \contentsline {subsubsection}{An\IeC {\`a}lisi contextual}{3}{section*.12}
-\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments de disseny d'interacci\IeC {\'o}}{5}{section*.14}
-\contentsline {subsubsection}{Construcci\IeC {\'o} de models de disseny-informaci\IeC {\'o}??}{5}{section*.15}
+\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments d'interacci\IeC {\'o}}{5}{section*.14}
+\contentsline {subsubsection}{Construcci\IeC {\'o} de models de d'informaci\IeC {\'o} per al disseny}{5}{section*.15}
 \contentsline {subsection}{\numberline {1.4.2}Disseny}{5}{subsection.1.4.2}
 \contentsline {subsection}{\numberline {1.4.3}Implementaci\IeC {\'o}}{5}{subsection.1.4.3}
 \contentsline {subsection}{\numberline {1.4.4}Avaluaci\IeC {\'o}}{5}{subsection.1.4.4}
@@ -23,5 +23,5 @@
 \contentsline {section}{\numberline {2.1}An\IeC {\`a}lisi}{9}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Investigaci\IeC {\'o} contextual}{9}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}An\IeC {\`a}lisi contextual}{9}{subsection.2.1.2}
-\contentsline {chapter}{\numberline {3}Conclusions}{11}{chapter.3}
-\contentsline {chapter}{\numberline {4}Agra\IeC {\"\i }ments}{13}{chapter.4}
+\contentsline {chapter}{\numberline {3}Conclusions}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}Agra\IeC {\"\i }ments}{15}{chapter.4}

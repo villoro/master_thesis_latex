@@ -7,6 +7,7 @@
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage{geometry}
+\usepackage{pdfpages}
 
 \renewcommand{\contentsname}{Sumari}
 \renewcommand{\listtablename}{Llista de taules}
@@ -22,7 +23,9 @@
 \begin{document}
 \frontmatter
 
-\maketitle
+\includepdf{Portada.pdf}
+
+%\maketitle
 
 \chapter*{Resum} \label{sec:Resum}
 \addcontentsline{toc}{chapter}{Resum}
