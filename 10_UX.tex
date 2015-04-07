@@ -1,11 +1,11 @@
 
-
+\chapter{Experiència d'Usuari}
 \section{Que s'entén per Experiència d'Usuari}
-Segons Rex Hartson \cite{def_UX}, l'\ac{UX} és la totalitat de l'efecte o efectes que sent (o experimenta) internament l'usuari com a resultat de la interacció, i del context d'ús, amb el sistema, dispositiu o producte. És a dir, una bona \ac{UX} es produirà quan l'usuari gaudeixi interaccionant i utilitzant el dispositiu o producte. Interacció i ús s'empren en un sentit molt ampli, ja que inclouen veure, tocar, pensar sobre el producte/dispositiu o fins i tot admirar-lo. 
+Segons Rex Hartson (2012, p. 19)\cite{UX_Book}, l'\ac{UX} és la totalitat de l'efecte o efectes que sent (o experimenta) internament l'usuari com a resultat de la interacció, i del context d'ús, amb el sistema, dispositiu o producte. És a dir, una bona \ac{UX} es produirà quan l'usuari gaudeixi interaccionant i utilitzant el dispositiu o producte. Interacció i ús s'empren en un sentit molt ampli, ja que inclouen veure, tocar, pensar sobre el producte/dispositiu o fins i tot admirar-lo. 
 A més, l'\ac{UX} també engloba la usabilitat i la utilitat. Certament l'usuari sent internament parts de la usabilitat, com l'augment de productivitat. Però hi ha certes manifestacions de usabilitat, com podria ser el temps invertit en la tasca, que representa un component no necessàriament experimentat internament per l'usuari.
 
-\section{Com s'estudia l'\ac{UX}?}
-L'\ac{UX} no pot ser dissenyada ja que depèn, no només del producte en si mateix, sinó que també depèn de l'usuari i la situació en la que l'utilitza \cite{cant_design_UX}. I és que no és possible dissenyar ni l'usuari ni la situació. Però el que si es pot fer és dissenyar per a una bona \ac{UX}. Per a aconseguir-ho hi ha quatre activitats elementals que són anàlisi, disseny, implementació i avaluació, tal i com es pot veure a la figura \ref{fig:UX_lifecycle}. Per tal d'aconseguir proporcionar una bona \ac{UX} aquestes activitats és duen a terme de forma iterativa, ja que no sempre és possible trobar un bon disseny al primer intent.
+\section{Com s'estudia l'Experiència d'Usuari?}
+L'\ac{UX} no pot ser dissenyada ja que depèn, no només del producte en si mateix, sinó que també depèn de l'usuari i la situació en la que l'utilitza [Smashing Magazine, 2012, p. 25-28]\cite{Smashing_User_Experience_Design}. I és que no és possible dissenyar ni l'usuari ni la situació. Però el que si es pot fer és dissenyar per a una bona \ac{UX}. Seguint els passos que proposa Rex Harton en el seu llibre d'\ac{UX} \cite{UX_Book}, per a aconseguir-ho hi ha quatre activitats elementals que són anàlisi, disseny, implementació i avaluació, tal i com es pot veure a la figura \ref{fig:UX_lifecycle}. Per tal d'aconseguir proporcionar una bona \ac{UX} aquestes activitats és duen a terme de forma iterativa, ja que no sempre és possible trobar un bon disseny al primer intent.
 
 \begin{figure}[htp]
 \centering
@@ -83,15 +83,36 @@ La idea general d'aquesta etapa es recórrer l'estructura jeràrquica del \ac{WA
 \caption{Exemple d'extracció de requeriments}\label{fig:workActivityNote2}
 \end{figure}
 
-A la figura \ref{fig:workActivityNote2} es pot veure com s'extreu un requeriment, utilitzant el mateix exemple que abans (figura \ref{fig:workActivityNote1}). L'etiqueta "C2", fa referencia a la posició que ocupava la nota dins el \ac{WAAD}.
+A la figura \ref{fig:workActivityNote2} es pot veure com s'extreu un requeriment, utilitzant el mateix exemple que abans (figura \ref{fig:workActivityNote1}). L'etiqueta "C2", fa referencia a la posició que ocupava la nota dins el \ac{WAAD}. S'utilitzen les lletres per anomenar les diferents branques i sub-branques i els números per diferenciar les notes que hi ha la mateixa branca del \ac{WAAD}.
 %TODO Especificar millor que vol dir C2.
 
 Un cop generats els requeriments es comprovarà que aquests siguin correctes preguntant directament als usuaris. Sempre que sigui possible es preguntarà als usuaris que van participar en la investigació contextual (apartat \ref{subsec:investigacio_contextual} juntament amb d'altres nous usuaris. Aquest pas també pot servir perquè els usuaris ajudin a destacar aquells requeriments que són prioritaris.
 
-\subsubsection{Construcció de models informatius per al disseny}
+\subsubsection{Construcció de models informatius per al disseny}\label{subsubsec:Construccio_models}
 Per dur a terme aquesta etapa també cal recórrer el \ac{WAAD}, és per això que aquesta etapa no és posterior a l'etapa \ref{subsubsec:Extraccio_requeriments} sinó que les dues es duen a terme de forma paral·lela. L'objectiu d'aquesta etapa és obtenir una sèrie de documents que descriuen tant el sistema actual, com el sistema que es preveu. Aquests documents seran els que es faran servir per a dissenyar el nou producte.
 
-%Per a facilitar la comprensió, es farà servir d'exemple l'estudi d'\ac{UX} per a crear una aplicació per a demanar pizzes, el mateix que fan servir N. Idris i I. Grey \cite{udacity_UX}.
+Aquest pas, juntament amb l'anterior (apartat \ref{subsec:analisi_contextual}) serveixen de pont entre l'anàlisi en si i l'etapa del disseny. És a dir, serveixen per enllaçar la situació o model actual, amb el model o sistema que s'està dissenyant.
+
+Els documents que s'obtenen en aquesta etapa (figura \ref{fig:design-informing_models}) són: 
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.75]{Design-informing_models.png}
+\caption{Exemple d'extracció de requeriments}\label{fig:design-informing_models}
+\end{figure}
+
+\begin{description}
+\item[Rols de treball] Corresponen als deures, funcions i activitats que desenvolupa una persona amb cert lloc de treball.
+\item[Classes d'Usuaris] Són les diferents característiques de la gent que desenvolupa un rol de treball concret.
+\item[Model social] És un diagrama que mostra l'organització i relació que existeix entre les diferents persones que intervenen en el sistema.
+\item[Model de flux] Aquest diagrama mostra com les diferents entitats (ja siguin, persones, aparells o programes) interaccionen entre si i què intercanvien entre elles.
+\item[Inventari de tasques jeràrquic] Es tracta d'un inventari jeràrquic que mostra les diferents tasques que es poden executar en el sistema.
+\item[Models d'interacció de les tasques] És un document que detalla com es duen a terme les tasques i com interaccionen les entitats que intervenen (sempre que intervingui més d'una entitat).
+\item[Model d'artefacte] Aquest diagrama mostra com els diferents elements tangibles interactuen entre si.
+\item[Model físic] Aquest model mostra la distribució física dels diferents artefactes i entitats.
+\item[Recopilatori de barreres] És un recopilatori de les barreres que s'han descrit als documents anteriors.
+\end{description}
+
+Una barrera és un problema que interfereix amb les operacions que l'usuari executa normalment. És qualsevol cosa que impedeix l'activitat de l'usuari, interromp el flux habitual del treball o interfereix amb el desenvolupament del treball. Seguint les recomanacions de Rex Harton (2012, p. 186) \cite{UX_Book} s'utilitzarà la mateixa simbologia que Beyer i Holtzblatt \cite{Contextual_Design} per a representar les barreres (el llamp vermell \barrier)
 
 \subsection{Disseny}
 

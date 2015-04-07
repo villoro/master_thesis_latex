@@ -1,13 +1,16 @@
 \documentclass{book}
 
-\usepackage[printonlyused]{acronym}
-\usepackage{hyperref}
-\usepackage{glossaries}
-\usepackage[utf8]{inputenc}
-\usepackage{enumitem}
-\usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{pdfpages}
+\usepackage[utf8]{inputenc} %caràcters en català
+\usepackage[printonlyused]{acronym} %acrònimcs
+\usepackage{hyperref} %hiperlinks
+\usepackage{glossaries} %glossaris
+\usepackage{enumitem} %per enumerar i fer llistes
+\usepackage{graphicx} %incloure figures
+\usepackage{geometry} %marges de la pagina
+\usepackage{pdfpages} %incloure pdfs dins el document
+\usepackage{eurosym} \DeclareUnicodeCharacter{20AC}{\euro} %pel simbol €
+
+\newcommand*\barrier{\includegraphics[scale=0.5]{red_lightning.png}} %simbol llamp
 
 \renewcommand{\contentsname}{Sumari}
 \renewcommand{\listtablename}{Llista de taules}
