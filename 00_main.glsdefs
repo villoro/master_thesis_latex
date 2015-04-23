@@ -1,16 +1,16 @@
-\ifglsentryexists{smartphone}{}%
+\ifglsentryexists{Android}{}%
 {%
-\gls@defglossaryentry{smartphone}%
+\gls@defglossaryentry{Android}%
 {%
-name={smartphone},%
-sort={smartphone},%
+name={Android},%
+sort={Android},%
 type={main},%
-first={smartphone},%
-firstplural={smartphones},%
-text={smartphone},%
-plural={smartphones},%
-description={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
-descriptionplural={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
+first={Android},%
+firstplural={Androids},%
+text={Android},%
+plural={Androids},%
+description={Sistema operatiu mòbil amb el qual funcionen la majòria de dispositius mòbils},%
+descriptionplural={Sistema operatiu mòbil amb el qual funcionen la majòria de dispositius mòbils},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -28,19 +28,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{Android}{}%
+\ifglsentryexists{conceptual_design}{}%
 {%
-\gls@defglossaryentry{Android}%
+\gls@defglossaryentry{conceptual_design}%
 {%
-name={Android},%
-sort={Android},%
+name={disseny conceptual},%
+sort={disseny conceptual},%
 type={main},%
-first={Android},%
-firstplural={Androids},%
-text={Android},%
-plural={Androids},%
-description={Sistema operatiu mòbil amb el qual funcionen la majòria de dispositius mòbils},%
-descriptionplural={Sistema operatiu mòbil amb el qual funcionen la majòria de dispositius mòbils},%
+first={disseny conceptual},%
+firstplural={dissenys conceptuals},%
+text={disseny conceptual},%
+plural={dissenys conceptuals},%
+description={és un tema},%
+descriptionplural={és un tema},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -161,6 +161,36 @@ text={nota d'activitats de treball},%
 plural={notes d'activitats de treball},%
 description={es tracta de notes que parafrasegen i representen la opinió d'un usuari per a facilitar la comprensió de la opinió dels usuaris.},%
 descriptionplural={es tracta de notes que parafrasegen i representen la opinió d'un usuari per a facilitar la comprensió de la opinió dels usuaris.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{smartphone}{}%
+{%
+\gls@defglossaryentry{smartphone}%
+{%
+name={smartphone},%
+sort={smartphone},%
+type={main},%
+first={smartphone},%
+firstplural={smartphones},%
+text={smartphone},%
+plural={smartphones},%
+description={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
+descriptionplural={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
