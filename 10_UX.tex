@@ -130,22 +130,6 @@ Un cop es tenen els personatges creats, comença la part del disseny en si. Aqu�
 \end{itemize}
 
 
-\begin{tabular}{ | p{1.8cm} | p{5cm} | p{3cm} | p{3cm} |}
-\hline
-Etapa & Propòsit & Prototip & Avaluació \\
-\hline
-Ideació i esbossos & Explorar idees de disseny & Esbossos & Discutint i criticant \\
-\hline
-Disseny conceptual & Avaluar i comprar múltiples dissenys conceptuals & Prototips de paper i \textit{wireframes} i \textit{storyboards} de baixa fidelitat &  Storytelling to Key stakeholders\\ %TODO 
-\hline
-Disseny intermedi & Filtrar els dissenys conceptuals, tot definint la navegació, fins a arribar al disseny conceptual definitiu & \textit{wireframes} d'alta fidelitat & Validar amb els usuaris\\
-\hline
-Disseny detallat & Definir completament el disseny, definint amb detall l'aparença, la distribució i comportament de les pantalles & \textit{wireframes} d'alta fidelitat i maquetes o prototips interactius & ? \\
-\hline
-Refinat del disseny & Avaluar el disseny final alhora que trobar i eliminar el màxim de problemes de \ac{UX} & Prototip programat d'alta fidelitat& Rapid method or full rigorous (a definir)\\ %TODO
-\hline
-\end{tabular}
-
 \subsubsection{Ideació i esbossos}
 Aquest primer pas consisteix en explorar idees. Per una banda amb la ideació, és a dir, el procés de formar idees per el disseny, la qual cosa normalment és fa amb una pluja d'idees. Per l'altre es creen esbossos per a plasmar les idees d'alguna de les persones que està dissenyant. Es important remarcar que les idees o esbossos que es creen en aquest pas han de tenir un nivell de detall molt baix. El que es busca és un primer contacte amb les idees, per tant és important deixa llibertat per a que sorgeixin el màxim d'idees, sense limitar-les a si semblen factibles o no. 
 
@@ -165,9 +149,50 @@ En aquest pas es busca detallar el disseny. Aquí es defineix completament l'apa
 %TODO imatge sunshine?
 
 \subsubsection{Refinat del disseny}
+Aquesta etapa es centra a buscar i arreglar problemes de \ac{UX} 
 
 
 %TODO HEX proposa que s'adaptin els metodes als recursos disponibles
 %TODO Pagina 161 - 196 5.0.0
 \subsection{Implementació}
+En la implementació o prototipatge es busca poder avaluar amb els usuaris els dissenys que s'han creat i es du a terme mitjançant prototips. Tal com Nielsen (1993 \ref{Nielsen_1993}) proposa els prototips es poden classificar segons la funcionalitat i segons les funcions o característiques que implementen, tal com es veu a la figura \ref{fig:types_prototypes}. També defineix els prototips horitzontals, verticals i locals. Aquests es caracteritzen per:
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.8]{Types_prototypes.png}
+\caption{Tipus de prototips}\label{fig:types_prototypes}
+\end{figure}
+
+\begin{description}
+\item[Prototip Horitzontal] És caracteritza per tenir moltes funcions però amb una profunditat molt baixa de funcionalitat. Serveix per a demostrar les diferents característiques o funcions que tindrà el producte, de manera que es pot veure de forma general les seccions o apartats i la navegació en general.
+\item[Prototip Vertical] Aquest tipus de prototip té una profunditat màxima de funcionalitat però centrat només en unes poques funcions. S'utilitza per avaluar amb suficient detall algunes funcions concretes del producte. 
+\item[Prototip Local] És un tipus de prototip on només implementa unes poques funcions i amb poca profunditat en quan a funcionalitat. S'utilitzen per avaluar diferents alternatives de disseny per a certs detalls d'interacció amb el sistema. 
+\end{description}
+
+Els prototips també es poden classificar segons el nivell de fidelitat, és a dir, com de "finalitzat" percep l'usuari el prototip. Es classifiquen doncs en baixa, mitja o alta fidelitat.  
+
+\begin{description}
+\item[Prototips de baixa fidelitat] Un prototip de baixa fidelitat serà percebut com a poc fidel al producte final per un usuari, i com a conseqüència, servira per desinhibir als usuaris a l'hora de criticar-lo i aportar idees per a millorar-lo. És per això que s'utilitzen prototips de baixa fidelitat en les primeres etapes de disseny, així els usuaris tenen absoluta llibertat per a aportar idees.
+\item[Prototips de mitja fidelitat]
+\item[Prototips d'alta fidelitat] Un prototip d'alta fidelitat serà molt realista i pròxim al producte final. Al ser tant pròxim al producte final, l'usuari percep que hi ha molta feina darrere d'aquest tipus de prototip i que per tant és complicat modificar-lo i això portarà a que tingui a no criticar-lo, amb la idea de no menystenir la feina dels demés. 
+\end{description}
+
+
 \subsection{Avaluació}
+
+\subsection{Pas a pas}
+\begin{tabular}{ | p{1.8cm} | p{5cm} | p{3cm} | p{3cm} |}
+\hline
+\textbf{Etapa} & \textbf{Propòsit} & \textbf{Prototip} & \textbf{Avaluació} \\
+\hline
+Ideació i esbossos & Explorar idees de disseny & Esbossos & Discutint i criticant \\
+\hline
+Disseny conceptual & Avaluar i comprar múltiples dissenys conceptuals & Prototips de paper i \textit{wireframes} i \textit{storyboards} de baixa fidelitat &  Storytelling to Key stakeholders\\ %TODO 
+\hline
+Disseny intermedi & Filtrar els dissenys conceptuals, tot definint la navegació, fins a arribar al disseny conceptual definitiu & \textit{wireframes} d'alta fidelitat & Validar amb els usuaris\\
+\hline
+Disseny detallat & Definir completament el disseny, definint amb detall l'aparença, la distribució i comportament de les pantalles & \textit{wireframes} d'alta fidelitat i maquetes o prototips interactius & ? \\
+\hline
+Refinat del disseny & Avaluar el disseny final alhora que trobar i eliminar el màxim de problemes de \ac{UX} & Prototip programat d'alta fidelitat& Rapid method or full rigorous (a definir)\\ %TODO
+\hline
+\end{tabular}
