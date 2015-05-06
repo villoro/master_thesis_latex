@@ -39,8 +39,38 @@ first={disseny conceptual},%
 firstplural={dissenys conceptuals},%
 text={disseny conceptual},%
 plural={dissenys conceptuals},%
-description={és un tema},%
-descriptionplural={és un tema},%
+description={és un tema, noció o idea amb el propòsit de comunicar una visió del disseny del sistema o producte. És la part del disseny del sistema que porta el model mental del dissenyador a la vida.},%
+descriptionplural={és un tema, noció o idea amb el propòsit de comunicar una visió del disseny del sistema o producte. És la part del disseny del sistema que porta el model mental del dissenyador a la vida.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{User_Experience}{}%
+{%
+\gls@defglossaryentry{User_Experience}%
+{%
+name={\textit {user experience} o experiència d'usuari},%
+sort={\textit {user experience} o experiència d'usuari},%
+type={main},%
+first={\protect \textit {user experience} o experi\IeC {\`e}ncia d'usuari},%
+firstplural={\protect \textit {user experience} o experi\IeC {\`e}ncia d'usuaris},%
+text={\protect \textit {user experience} o experi\IeC {\`e}ncia d'usuari},%
+plural={\protect \textit {user experience} o experi\IeC {\`e}ncia d'usuaris},%
+description={és la totalitat de l'efecte o efectes que sent (o experimenta) internament l'usuari com a resultat de la interacció, i del context d'ús, amb el sistema, dispositiu o producte.},%
+descriptionplural={és la totalitat de l'efecte o efectes que sent (o experimenta) internament l'usuari com a resultat de la interacció, i del context d'ús, amb el sistema, dispositiu o producte.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -118,6 +148,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{contextual_inquiry}{}%
+{%
+\gls@defglossaryentry{contextual_inquiry}%
+{%
+name={\textit {investigació contextual}},%
+sort={\textit {investigació contextual}},%
+type={main},%
+first={\protect \textit {investigaci\IeC {\'o} contextual}},%
+firstplural={\protect \textit {investigaci\IeC {\'o} contextual}s},%
+text={\protect \textit {investigaci\IeC {\'o} contextual}},%
+plural={\protect \textit {investigaci\IeC {\'o} contextual}s},%
+description={És una activitat que forma part d'un estudi d'UX que consisteix en recopilar informació detallada sobre com els usuaris interaccionen amb un producte/sistema. La seva finalitat és poder construir i/o millorar el producte/sistema i és du a terme mitjançant entrevistes i observacions dels usuaris.},%
+descriptionplural={És una activitat que forma part d'un estudi d'UX que consisteix en recopilar informació detallada sobre com els usuaris interaccionen amb un producte/sistema. La seva finalitat és poder construir i/o millorar el producte/sistema i és du a terme mitjançant entrevistes i observacions dels usuaris.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Material}{}%
 {%
 \gls@defglossaryentry{Material}%
@@ -131,6 +191,36 @@ text={Material Design},%
 plural={Material Designs},%
 description={són unes directrius de disseny per a les aplicacions d'Android que es van crear amb la versió 5.0 per a substituir i millorar Holo. Per més informació \url {http://developer.android.com/design/material/index.html}},%
 descriptionplural={són unes directrius de disseny per a les aplicacions d'Android que es van crear amb la versió 5.0 per a substituir i millorar Holo. Per més informació \url {http://developer.android.com/design/material/index.html}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mockup}{}%
+{%
+\gls@defglossaryentry{mockup}%
+{%
+name={\textit {mockup}},%
+sort={\textit {mockup}},%
+type={main},%
+first={\protect \textit {mockup}},%
+firstplural={\protect \textit {mockup}s},%
+text={\protect \textit {mockup}},%
+plural={\protect \textit {mockup}s},%
+description={És una representació estàtica de fidelitat mitja o alta. Representa l'estructura de la informació i demostra les funcionalitats bàsiques d'una manera estàtica.},%
+descriptionplural={És una representació estàtica de fidelitat mitja o alta. Representa l'estructura de la informació i demostra les funcionalitats bàsiques d'una manera estàtica.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -178,6 +268,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{prototip}{}%
+{%
+\gls@defglossaryentry{prototip}%
+{%
+name={prototip},%
+sort={prototip},%
+type={main},%
+first={prototip},%
+firstplural={prototips},%
+text={prototip},%
+plural={prototips},%
+description={És una representació navegable del producte final i normalment és de fidelitat mitja o alta. Simula la interacció amb la interfície d'usuari i permet que l'usuari experimenti interactuant amb la interfície i el contingut. També permet que provi les principals interaccions d'una manera molt similar al producte final.},%
+descriptionplural={És una representació navegable del producte final i normalment és de fidelitat mitja o alta. Simula la interacció amb la interfície d'usuari i permet que l'usuari experimenti interactuant amb la interfície i el contingut. També permet que provi les principals interaccions d'una manera molt similar al producte final.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sketch}{}%
+{%
+\gls@defglossaryentry{sketch}%
+{%
+name={\textit {sketch}},%
+sort={\textit {sketch}},%
+type={main},%
+first={\protect \textit {sketch}},%
+firstplural={\protect \textit {sketch}s},%
+text={\protect \textit {sketch}},%
+plural={\protect \textit {sketch}s},%
+description={Es un dibuix ràpid que es realitza a mà alçada que reprodueix un concepte, idea o la generalitat d'un projecte de manera molt senzilla. És una representació de baixa fidelitat},%
+descriptionplural={Es un dibuix ràpid que es realitza a mà alçada que reprodueix un concepte, idea o la generalitat d'un projecte de manera molt senzilla. És una representació de baixa fidelitat},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{smartphone}{}%
 {%
 \gls@defglossaryentry{smartphone}%
@@ -191,6 +341,36 @@ text={smartphone},%
 plural={smartphones},%
 description={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
 descriptionplural={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{wireframe}{}%
+{%
+\gls@defglossaryentry{wireframe}%
+{%
+name={\textit {wireframe}},%
+sort={\textit {wireframe}},%
+type={main},%
+first={\protect \textit {wireframe}},%
+firstplural={\protect \textit {wireframe}s},%
+text={\protect \textit {wireframe}},%
+plural={\protect \textit {wireframe}s},%
+description={És una representació estàtica de baixa fidelitat d'un disseny. Mostra la estructura general així com les diferents parts que la componen representat per caixes o formes},%
+descriptionplural={És una representació estàtica de baixa fidelitat d'un disseny. Mostra la estructura general així com les diferents parts que la componen representat per caixes o formes},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

@@ -52,7 +52,7 @@ L'essència d'aquest pas és el processament, la interpretació i l'anàlisi de 
 \end{itemize}
 %TODO Vocabulari: notes d'activitats de treball??
 
-El model de flux és una representació gràfica que explica com les diferents entitats es comuniquen per tal d'aconseguir que el treball es realitzi. Per a poder crear el model de flux cal identificar els rols de treball. Un rol de treball és una col·lecció de responsabilitats que desenvolupen una part coherent del treball.
+El model de flux és una representació gràfica que explica com les diferents entitats es comuniquen per tal d'aconseguir que el treball es realitzi. Per a poder crear el model de flux cal identificar els rols de treball. Un rol de treball correspon als deures, funcions i activitats que desenvolupa una persona amb cert lloc de treball.
 
 \begin{figure}[htp]
 \centering
@@ -169,29 +169,46 @@ En la implementació o prototipatge es busca poder avaluar amb els usuaris els d
 \item[Prototip Local] És un tipus de prototip on només implementa unes poques funcions i amb poca profunditat en quan a funcionalitat. S'utilitzen per avaluar diferents alternatives de disseny per a certs detalls d'interacció amb el sistema. 
 \end{description}
 
-Els prototips també es poden classificar segons el nivell de fidelitat, és a dir, com de "finalitzat" percep l'usuari el prototip. Es classifiquen doncs en baixa, mitja o alta fidelitat.  
+Els prototips també es poden classificar segons el nivell de fidelitat, és a dir, com de "finalitzat" percep l'usuari el prototip. Es classifiquen doncs en baixa, mitja o alta fidelitat. 
 
 \begin{description}
-\item[Prototips de baixa fidelitat] Un prototip de baixa fidelitat serà percebut com a poc fidel al producte final per un usuari, i com a conseqüència, servira per desinhibir als usuaris a l'hora de criticar-lo i aportar idees per a millorar-lo. És per això que s'utilitzen prototips de baixa fidelitat en les primeres etapes de disseny, així els usuaris tenen absoluta llibertat per a aportar idees.
-\item[Prototips de mitja fidelitat]
-\item[Prototips d'alta fidelitat] Un prototip d'alta fidelitat serà molt realista i pròxim al producte final. Al ser tant pròxim al producte final, l'usuari percep que hi ha molta feina darrere d'aquest tipus de prototip i que per tant és complicat modificar-lo i això portarà a que tingui a no criticar-lo, amb la idea de no menystenir la feina dels demés. 
+\item[Prototips de baixa fidelitat] Aquests prototips s'utilitzen en les primeres etapes de disseny, ja que impliquen poca feina i per tant són senzills de modificar. Aquest tipus de prototips habitualment es fan dibuixant amb paper i bolígraf. 
+\item[Prototips de mitja fidelitat] Es tracta d'un terme mig entre prototip de baixa i el d'alta fidelitat. Tot i que no representen l'aspecte final del producte, si s'acosten donant una idea més real de com serà. Aquests tipus de prototips normalment es creen amb programes especials per a ordinadors.
+\item[Prototips d'alta fidelitat] Els prototips d'alta fidelitat tenen un aspecte i comportament molt realista i pròxim al producte final. S'utilitzen per a polir i refinar el disseny del producte. 
 \end{description}
 
+Quan menys fidel és un prototip, és alhora més susceptible de canviar. I és que un prototip de baixa fidelitat és percebut com a poc fidel al producte final per un usuari, i com a conseqüència, desinhibeix als usuaris a l'hora de criticar-lo i aportar idees per a millorar-lo. En canvi, en un prototip d'alta fidelitat, al ser tant pròxim al producte final, l'usuari percep que hi ha molta feina darrere d'aquest i que per tant és complicat modificar-lo i això portarà a que tendeixi a no criticar-lo, amb la idea de no menystenir la feina dels demés. Tot i això, els prototips de baixa fidelitat són complicats d'entendre per les persones que no estan familiaritzades, per això és recomanable que només s'utilitzin i es comparteixin amb l'equip de disseny i, si existeixen, amb usuaris que estiguin familiaritzats amb el procés de disseny. Per tant, de forma general, els prototips de mitja fidelitat són els primers que es comparteixen amb els usuaris. 
 
 \subsection{Avaluació}
+Hi ha dos tipus d'avaluació, l'avaluació formativa i la sumarial. 
+
+\begin{description}
+\item[Avaluació formativa] Es tracta d'un primer diagnostic. Consisteix en recol·lectar informació qualitativa per identificar i arreglar problemes de \ac{UX} i les seves causes en el disseny.
+\item[Avaluació sumarial] Consisteix en recol·lectar informació quantitativa per assegurar un nivell de qualitat en un disseny, especialment per a l'avaluació de la millora de la \ac{UX} a causa de l'avaluació formativa.
+
+\begin{description}
+\item[Avaluació sumarial formal] Per ciència, no interessa per enginyeria
+\end{description}
+\end{description}
+
+1. Inspection
+2. SUS o USE (o els dos)
+3. Alpha i beta
+
+
 
 \subsection{Pas a pas}
 \begin{tabular}{ | p{1.8cm} | p{5cm} | p{3cm} | p{3cm} |}
 \hline
 \textbf{Etapa} & \textbf{Propòsit} & \textbf{Prototip} & \textbf{Avaluació} \\
 \hline
-Ideació i esbossos & Explorar idees de disseny & Esbossos & Discutint i criticant \\
+Ideació i esbossos & Explorar idees de disseny & Esbossos & Discutint i criticant amb l'equip de disseny \\
 \hline
-Disseny conceptual & Avaluar i comprar múltiples dissenys conceptuals & Prototips de paper i \textit{wireframes} i \textit{storyboards} de baixa fidelitat &  Storytelling to Key stakeholders\\ %TODO 
+Disseny conceptual & Avaluar i comprar múltiples dissenys conceptuals & Prototips de paper i \gls{wireframe} i \textit{storyboards} de baixa fidelitat &  Fent demostracions del producte als equips de treball involucrats amb el producte\\ 
 \hline
-Disseny intermedi & Filtrar els dissenys conceptuals, tot definint la navegació, fins a arribar al disseny conceptual definitiu & \textit{wireframes} d'alta fidelitat & Validar amb els usuaris\\
+Disseny intermedi & Filtrar els dissenys conceptuals, tot definint la navegació, fins a arribar al disseny conceptual definitiu & \textit{wireframes} d'alta o mitja fidelitat & Validar amb els usuaris\\
 \hline
-Disseny detallat & Definir completament el disseny, definint amb detall l'aparença, la distribució i comportament de les pantalles & \textit{wireframes} d'alta fidelitat i maquetes o prototips interactius & ? \\
+Disseny detallat & Definir completament el disseny, definint amb detall l'aparença, la distribució i comportament de les pantalles & \textit{wireframes} d'alta fidelitat i maquetes o prototips interactius & Validar amb els usuaris \\
 \hline
 Refinat del disseny & Avaluar el disseny final alhora que trobar i eliminar el màxim de problemes de \ac{UX} & Prototip programat d'alta fidelitat& Rapid method or full rigorous (a definir)\\ %TODO
 \hline
