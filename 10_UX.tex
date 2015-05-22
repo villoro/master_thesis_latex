@@ -155,7 +155,7 @@ Aquesta etapa es centra a buscar i arreglar problemes de \ac{UX}
 %TODO HEX proposa que s'adaptin els metodes als recursos disponibles
 %TODO Pagina 161 - 196 5.0.0
 \subsection{Implementació}
-En la implementació o prototipatge es busca poder avaluar amb els usuaris els dissenys que s'han creat i es du a terme mitjançant prototips. Tal com Nielsen (1993 \ref{Nielsen_1993}) proposa els prototips es poden classificar segons la funcionalitat i segons les funcions o característiques que implementen, tal com es veu a la figura \ref{fig:types_prototypes}. També defineix els prototips horitzontals, verticals i locals. Aquests es caracteritzen per:
+En la implementació o prototipatge es busca poder avaluar amb els usuaris els dissenys que s'han creat i es du a terme mitjançant prototips, els quals són representacions navegables del producte final. Tal com Nielsen (1993 \ref{Nielsen_1993}) proposa, els prototips es poden classificar segons la funcionalitat i segons les funcions o característiques que implementen, tal com es veu a la figura \ref{fig:types_prototypes}. També defineix els prototips horitzontals, verticals i locals. Aquests es caracteritzen per:
 
 \begin{figure}[ht]
 \centering
@@ -179,21 +179,67 @@ Els prototips també es poden classificar segons el nivell de fidelitat, és a d
 
 Quan menys fidel és un prototip, és alhora més susceptible de canviar. I és que un prototip de baixa fidelitat és percebut com a poc fidel al producte final per un usuari, i com a conseqüència, desinhibeix als usuaris a l'hora de criticar-lo i aportar idees per a millorar-lo. En canvi, en un prototip d'alta fidelitat, al ser tant pròxim al producte final, l'usuari percep que hi ha molta feina darrere d'aquest i que per tant és complicat modificar-lo i això portarà a que tendeixi a no criticar-lo, amb la idea de no menystenir la feina dels demés. Tot i això, els prototips de baixa fidelitat són complicats d'entendre per les persones que no estan familiaritzades, per això és recomanable que només s'utilitzin i es comparteixin amb l'equip de disseny i, si existeixen, amb usuaris que estiguin familiaritzats amb el procés de disseny. Per tant, de forma general, els prototips de mitja fidelitat són els primers que es comparteixen amb els usuaris. 
 
+
+Els prototips són representacions navegables que exemplifiquen com serà el producte o sistema. Com a tals, hi ha varies maneres d'aconseguir que siguin navegables, permetent més o menys interacció. Es tenen doncs:
+
+\begin{description}
+\item[Prototips de paper] Consisteix en crear en paper els diferents elements del sistema i utilitzar una base per a poder-los mostrar. L'usuari simula clics als diferents elements i l'avaluador far aparèixer els elements necessaris que corresponen a la resposta del clic que ha fet l'usuari. 
+\item[Prototips "Mag d'Oz"] Aquests tipus de prototips es basen en dos aparells, un per a l'usuari i un per l'avaluador. L'usuari interactuarà amb el seu dispositiu i l'avaluador, amb l'altre dispositiu rebrà les accions de l'usuari i les respondrà simulant el comportament del sistema.
+\item[Prototip completament programat] És un prototip programat que representa de manera bastant fidel el producte/sistema final.
+\end{description}
+
+Durant la creació d'un producte el més habitual és començar creant prototips horitzontals de baixa fidelitat per a poder generar una primera impressió del producte. A mesura que es va perfeccionant el producte, es va millorant la fidelitat d'aquest i permetent més interacció de manera que els usuaris notin que interactuen amb prototip molt semblant al producte final. D'aquesta manera s'inverteixen pocs recursos amb els primers prototips ja que són més susceptibles de canviar i un cop es sap que el producte va per el bon camí es quan es creen els prototips d'alta fidelitat, invertint només una quantitat elevada de recursos quan és necessari. 
+
 \subsection{Avaluació}
-Hi ha dos tipus d'avaluació, l'avaluació formativa i la sumarial. 
+Per avaluació s'entén validar que el producte compleix les expectatives dels usuaris. Per a fer-ho, hi ha dos tipus d'avaluació, l'avaluació formativa i la sumarial. 
 
 \begin{description}
 \item[Avaluació formativa] Es tracta d'un primer diagnostic. Consisteix en recol·lectar informació qualitativa per identificar i arreglar problemes de \ac{UX} i les seves causes en el disseny.
-\item[Avaluació sumarial] Consisteix en recol·lectar informació quantitativa per assegurar un nivell de qualitat en un disseny, especialment per a l'avaluació de la millora de la \ac{UX} a causa de l'avaluació formativa.
+\item[Avaluació sumarial] Consisteix en recol·lectar informació quantitativa per assegurar un nivell de qualitat en un disseny, especialment per a l'avaluació de la millora de la \ac{UX} a causa de l'avaluació formativa. Es dur a terme en les últimes fases de disseny quan els prototips ja tenen una fidelitat alta. 
+\end{description}
+
+La informació que s'obté a l'avaluació pot ser objectiva o subjectiva i quantitativa o qualitativa.
 
 \begin{description}
-\item[Avaluació sumarial formal] Per ciència, no interessa per enginyeria
-\end{description}
+\item[Informació objectiva] Es tracta d'informació observada per l'avaluador o per l'usuari sobre inconsistències o problemes. 
+\item[Informació subjectiva] Són les opinions o judicis del usuaris respecte a la seva \ac{UX} i la satisfacció al interactuar amb el producte. 
+\item[Informació quantitativa] És la informació numèrica que demostra la qualitat del producte. S'obté a través d'analitzar el rendiment o amb qüestionaris i és la base de l'avaluació sumarial.
+\item[Informació qualitativa] És informació descriptiva que normalment descriu problemes d'\ac{UX} observats durant la utilització del producte.
 \end{description}
 
-1. Inspection
-2. SUS o USE (o els dos)
-3. Alpha i beta
+Per a poder recopilar informació Rex (2012, p. 436 - 490) \cite{UX_Book} proposa un seguit de tècniques:
+
+\begin{itemize}
+\item Detecció d'incidents crítics
+\item Tècnica "pensar en veu alta"
+\item Demostració del producte
+\item Inspecció 
+\item Qüestionaris
+\item Versions alfa/beta
+\item UX Goals %TODO
+\end{itemize}
+
+\subsubsection{Detecció d'incidents crítics}
+Un incident crític és un esdeveniment observat durant el desenvolupament de les tasques que ha produït sorpresa, ha molestat o inquietat a l'usuari per la seva falta de coherència o per presentar resultats inesperats per l'usuari. La detecció d'incidents crítics consisteix en analitzar els usuaris mentre utilitzen el producte per a poder trobar-los. És una tècnica d'avaluació formativa que serveix per a recopilar informació qualitativa. Els incidents crítics sovint són expressats verbalment per els usuaris, però a vegades també poden ser expressats de forma no verbal mitjançant unt titubeig, encongiment d'espatlles o alguna ganyota. 
+\subsubsection{Tècnica "pensar en veu alta"}
+La tècnica "pensar en veu alta" és una tècnica per aconseguir data qualitativa que, com el seu nom indica, consisteix en què el usuaris expressin verbalment els seus pensaments, els seus motius i la seva percepció sobre els problemes d'\ac{UX} en quan a la interacció amb el producte quan l'estan fent servir. Amb aquesta tècnica s'aconsegueix entendre que és el que l'usuari intenta fer en tot moment i quins problemes experimenta.
+És important que els usuaris expliquin què és el que estan pensant, no el que estan fent, ja que això és el que seria més complicat de saber sense fer servir aquesta tècnica.  
+\subsubsection{Demostració del producte}
+Una demostració o \textit{walkthrough} és un mètode que s'acostuma a fer servir en les primeres etapes de disseny abans que existeixi algun prototip. Consisteix en ensenyar el producte als usuaris fent-se passar per un, de manera que aquests veuran el disseny com si fossin uns experts. La idea és que l'equip intenta anticipar-se als problemes que els usuaris podrien tenir si fossin ells els que estiguessin utilitzant el producte. 
+\subsubsection{Inspecció} 
+La inspecció consisteix en que un expert en UX provi i avaluï ell mateix el producte enlloc de que el facin servir usuaris mentre l'expert els observa. Per tant, l'avaluador fa alhora d'observador i participant. Aquesta tècnica és útil a les primeres etapes del disseny per a poder trobar els problemes d'\ac{UX} més evidents a un baix cost. 
+\subsubsection{Qüestionaris}
+Els qüestionaris són la eina principal per a recol·lectar informació objectiva del producte. S'utilitzen principalment com a una eina de formació sumarial. Hi ha molts qüestionaris creats específicament per avaluar l'\ac{UX}, tot i això els més coneguts i d'ús lliure són:
+\begin{itemize}
+\item Qüestionari per a la satisfacció amb la interfície d'usuari o \textit{Questionnaire for User Interface Satisfaction} (QUIS).
+\item Escala d'usabilitat del sistema o \textit{System Usability Scale} (SUS).
+\item Utilitat, satisfacció i facilitat d'ús o \textit{Usefulness, Satisfaction and Ease of Use} (USE).
+\end{itemize}
+
+\subsubsection{Versions alfa/beta}
+Quan el producte és una aplicació de \textit{software} i el procés de desenvolupar-la s'ha acabat és habitual que s'envii primer a certs usuaris, experts, clients i crítics professionals per a que en donin la seva opinió. Una versió alfa és una versió més prematura i menys polida del producte que s'envia a una audiència més reduïda també a l'objectiu d'aconseguir la seva opinió. 
+Aquestes versions són una forma gratuïta d'aconseguir les opinions dels usuaris abans de llançar finalment el producte al mercat i serveixen per a comprovar com acollirà el públic el producte. Sovint també serveix per a detectar erros que s'hagin pogut passar per alt al desenvolupar el producte. 
+%TODO UX goals
 
 
 

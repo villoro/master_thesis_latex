@@ -28,6 +28,96 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{barrier}{}%
+{%
+\gls@defglossaryentry{barrier}%
+{%
+name={barrera},%
+sort={barrera},%
+type={main},%
+first={barrera},%
+firstplural={barreras},%
+text={barrera},%
+plural={barreras},%
+description={És un problema que interfereix amb les operacions que l'usuari executa normalment},%
+descriptionplural={És un problema que interfereix amb les operacions que l'usuari executa normalment},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{affinity_diagram}{}%
+{%
+\gls@defglossaryentry{affinity_diagram}%
+{%
+name={diagrama d'afinitat},%
+sort={diagrama d'afinitat},%
+type={main},%
+first={diagrama d'afinitat},%
+firstplural={diagrama d'afinitats},%
+text={diagrama d'afinitat},%
+plural={diagrama d'afinitats},%
+description={És una representació gràfica i jeràrquica que serveix per mostrar un resum extret de una gran quantitat d'informació quantitativa i qualitativa.},%
+descriptionplural={És una representació gràfica i jeràrquica que serveix per mostrar un resum extret de una gran quantitat d'informació quantitativa i qualitativa.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{WAAD}{}%
+{%
+\gls@defglossaryentry{WAAD}%
+{%
+name={\textit {Work Activity Affinity Diagram}},%
+sort={\textit {Work Activity Affinity Diagram}},%
+type={main},%
+first={\protect \textit {Work Activity Affinity Diagram}},%
+firstplural={\protect \textit {Work Activity Affinity Diagram}s},%
+text={\protect \textit {Work Activity Affinity Diagram}},%
+plural={\protect \textit {Work Activity Affinity Diagram}s},%
+description={És un diagrama d'afinitat que serveix per filtrar i organitzar les notes d'activitat de treball extretes a l'anàlisi contextual. Serveix per mostrar les notes agrupades i organitzades segons similituds entre elles.},%
+descriptionplural={És un diagrama d'afinitat que serveix per filtrar i organitzar les notes d'activitat de treball extretes a l'anàlisi contextual. Serveix per mostrar les notes agrupades i organitzades segons similituds entre elles.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{conceptual_design}{}%
 {%
 \gls@defglossaryentry{conceptual_design}%
@@ -178,6 +268,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{inventari_tasques}{}%
+{%
+\gls@defglossaryentry{inventari_tasques}%
+{%
+name={inventari de tasques jeràrquic},%
+sort={inventari de tasques jeràrquic},%
+type={main},%
+first={inventari de tasques jer\IeC {\`a}rquic},%
+firstplural={inventari de tasques jer\IeC {\`a}rquics},%
+text={inventari de tasques jer\IeC {\`a}rquic},%
+plural={inventari de tasques jer\IeC {\`a}rquics},%
+description={És un model d'ús que representa les diferents tasques que es poden executar de forma jeràrquica. Dins l'estructura un fill és una subtasca del seu pare, no una tasca posterior en el temps.},%
+descriptionplural={És un model d'ús que representa les diferents tasques que es poden executar de forma jeràrquica. Dins l'estructura un fill és una subtasca del seu pare, no una tasca posterior en el temps.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Material}{}%
 {%
 \gls@defglossaryentry{Material}%
@@ -191,6 +311,66 @@ text={Material Design},%
 plural={Material Designs},%
 description={són unes directrius de disseny per a les aplicacions d'Android que es van crear amb la versió 5.0 per a substituir i millorar Holo. Per més informació \url {http://developer.android.com/design/material/index.html}},%
 descriptionplural={són unes directrius de disseny per a les aplicacions d'Android que es van crear amb la versió 5.0 per a substituir i millorar Holo. Per més informació \url {http://developer.android.com/design/material/index.html}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{flow_model}{}%
+{%
+\gls@defglossaryentry{flow_model}%
+{%
+name={model de flux},%
+sort={model de flux},%
+type={main},%
+first={model de flux},%
+firstplural={model de fluxs},%
+text={model de flux},%
+plural={model de fluxs},%
+description={És una representació gràfica que explica com les diferents entitats es comuniquen per tal d'aconseguir que el treball es realitzi.},%
+descriptionplural={És una representació gràfica que explica com les diferents entitats es comuniquen per tal d'aconseguir que el treball es realitzi.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{models_interaccio_tasques}{}%
+{%
+\gls@defglossaryentry{models_interaccio_tasques}%
+{%
+name={models d'interacció de les tasques},%
+sort={models d'interacció de les tasques},%
+type={main},%
+first={models d'interacci\IeC {\'o} de les tasques},%
+firstplural={models d'interacci\IeC {\'o} de les tasquess},%
+text={models d'interacci\IeC {\'o} de les tasques},%
+plural={models d'interacci\IeC {\'o} de les tasquess},%
+description={És un model d'ús que representa l'execució pas a pas d'una tasca, incloent l'objectiu de la tasca, catalitzadors i les accions dels usuaris.},%
+descriptionplural={És un model d'ús que representa l'execució pas a pas d'una tasca, incloent l'objectiu de la tasca, catalitzadors i les accions dels usuaris.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -268,6 +448,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{work_role}{}%
+{%
+\gls@defglossaryentry{work_role}%
+{%
+name={rol de treball},%
+sort={rol de treball},%
+type={main},%
+first={rol de treball},%
+firstplural={rols de treball},%
+text={rol de treball},%
+plural={rols de treball},%
+description={Corresponen als deures, funcions i activitats que desenvolupa una persona amb cert lloc de treball.},%
+descriptionplural={Corresponen als deures, funcions i activitats que desenvolupa una persona amb cert lloc de treball.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{persona}{}%
+{%
+\gls@defglossaryentry{persona}%
+{%
+name={personatge},%
+sort={personatge},%
+type={main},%
+first={personatge},%
+firstplural={personatges},%
+text={personatge},%
+plural={personatges},%
+description={És una representació utilitzada en el disseny per a representar una persona fictícia amb un rol de treball concret. Serveix per a ajudar als dissenyadors a imaginar-se millor per a qui estan dissenyant},%
+descriptionplural={És una representació utilitzada en el disseny per a representar una persona fictícia amb un rol de treball concret. Serveix per a ajudar als dissenyadors a imaginar-se millor per a qui estan dissenyant},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{prototip}{}%
 {%
 \gls@defglossaryentry{prototip}%
@@ -281,6 +521,96 @@ text={prototip},%
 plural={prototips},%
 description={És una representació navegable del producte final i normalment és de fidelitat mitja o alta. Simula la interacció amb la interfície d'usuari i permet que l'usuari experimenti interactuant amb la interfície i el contingut. També permet que provi les principals interaccions d'una manera molt similar al producte final.},%
 descriptionplural={És una representació navegable del producte final i normalment és de fidelitat mitja o alta. Simula la interacció amb la interfície d'usuari i permet que l'usuari experimenti interactuant amb la interfície i el contingut. També permet que provi les principals interaccions d'una manera molt similar al producte final.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{prototip_h}{}%
+{%
+\gls@defglossaryentry{prototip_h}%
+{%
+name={prototip horitzontal},%
+sort={prototip horitzontal},%
+type={main},%
+first={prototip horitzontal},%
+firstplural={prototips horitzontals},%
+text={prototip horitzontal},%
+plural={prototips horitzontals},%
+description={És un prototip què té moltes funcions però amb una profunditat baixa en quan a funcionalitat.},%
+descriptionplural={És un prototip què té moltes funcions però amb una profunditat baixa en quan a funcionalitat.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{prototip_l}{}%
+{%
+\gls@defglossaryentry{prototip_l}%
+{%
+name={prototip local},%
+sort={prototip local},%
+type={main},%
+first={prototip local},%
+firstplural={prototips locals},%
+text={prototip local},%
+plural={prototips locals},%
+description={És un prototip que només implementa unes poques funcions i amb poca profunditat en quan a funcionalitat.},%
+descriptionplural={És un prototip que només implementa unes poques funcions i amb poca profunditat en quan a funcionalitat.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{prototip_v}{}%
+{%
+\gls@defglossaryentry{prototip_v}%
+{%
+name={prototip vertical},%
+sort={prototip vertical},%
+type={main},%
+first={prototip vertical},%
+firstplural={prototips verticals},%
+text={prototip vertical},%
+plural={prototips verticals},%
+description={És un prototip amb una profunditat alta de funcionalitat però que es centra només en poques funcions},%
+descriptionplural={És un prototip amb una profunditat alta de funcionalitat però que es centra només en poques funcions},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -332,15 +662,75 @@ parent={},%
 {%
 \gls@defglossaryentry{smartphone}%
 {%
-name={smartphone},%
-sort={smartphone},%
+name={\textit {smartphone}},%
+sort={\textit {smartphone}},%
 type={main},%
-first={smartphone},%
-firstplural={smartphones},%
-text={smartphone},%
-plural={smartphones},%
-description={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
-descriptionplural={Telefon inteligent que permeten realitzar tasques semblants a les realitzades per ordinadors.},%
+first={\protect \textit {smartphone}},%
+firstplural={\protect \textit {smartphone}s},%
+text={\protect \textit {smartphone}},%
+plural={\protect \textit {smartphone}s},%
+description={Telefon intel·ligent que permeten realitzar tasques semblants a les realitzades per ordinadors},%
+descriptionplural={Telefon intel·ligent que permeten realitzar tasques semblants a les realitzades per ordinadors},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SUS}{}%
+{%
+\gls@defglossaryentry{SUS}%
+{%
+name={\textit {SUS}},%
+sort={\textit {SUS}},%
+type={main},%
+first={\protect \textit {SUS}},%
+firstplural={\protect \textit {SUS}s},%
+text={\protect \textit {SUS}},%
+plural={\protect \textit {SUS}s},%
+description={Qüestionari d'UX amb 10 preguntes que permet puntuar un producte o sistema},%
+descriptionplural={Qüestionari d'UX amb 10 preguntes que permet puntuar un producte o sistema},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{work}{}%
+{%
+\gls@defglossaryentry{work}%
+{%
+name={treballar},%
+sort={treballar},%
+type={main},%
+first={treballar},%
+firstplural={treballars},%
+text={treballar},%
+plural={treballars},%
+description={Dins de l'àmbit d'UX, és interactuar o utilitzar el sistema/producte.},%
+descriptionplural={Dins de l'àmbit d'UX, és interactuar o utilitzar el sistema/producte.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
