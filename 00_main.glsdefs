@@ -28,6 +28,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Android_Studio}{}%
+{%
+\gls@defglossaryentry{Android_Studio}%
+{%
+name={\textit {Android Studio}},%
+sort={\textit {Android Studio}},%
+type={main},%
+first={\protect \textit {Android Studio}},%
+firstplural={\protect \textit {Android Studio}s},%
+text={\protect \textit {Android Studio}},%
+plural={\protect \textit {Android Studio}s},%
+description={Programa especialment creat per a desenvolupar aplicacions per Android.},%
+descriptionplural={Programa especialment creat per a desenvolupar aplicacions per Android.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Balsamiq_Mockups}{}%
+{%
+\gls@defglossaryentry{Balsamiq_Mockups}%
+{%
+name={\textit {Balsamiq Mockups}},%
+sort={\textit {Balsamiq Mockups}},%
+type={main},%
+first={\protect \textit {Balsamiq Mockups}},%
+firstplural={\protect \textit {Balsamiq Mockups}s},%
+text={\protect \textit {Balsamiq Mockups}},%
+plural={\protect \textit {Balsamiq Mockups}s},%
+description={Programa de disseny que es caracteritza per a poder alternar entre una aparença de baixa o mitja fidelitat},%
+descriptionplural={Programa de disseny que es caracteritza per a poder alternar entre una aparença de baixa o mitja fidelitat},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{barrier}{}%
 {%
 \gls@defglossaryentry{barrier}%
