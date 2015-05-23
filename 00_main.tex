@@ -9,6 +9,7 @@
 \usepackage{geometry} %marges de la pagina
 \usepackage{pdfpages} %incloure pdfs dins el document
 \usepackage{eurosym} \DeclareUnicodeCharacter{20AC}{\euro} %pel simbol €
+\usepackage{setspace} %Per l'interlineat
 
 \newcommand*\barrier{\includegraphics[scale=0.5]{red_lightning.png}} %simbol llamp
 \newcommand*\blacktriangle{\includegraphics[scale=0.05]{blacktriangle.png}}
@@ -17,6 +18,13 @@
 \renewcommand{\listtablename}{Llista de taules}
 \renewcommand{\figurename}{Figura}
 \renewcommand{\tablename}{Taula} 
+
+%Mides i format dels paràgrafs i del text
+\setlength{\parindent}{1em} %Paragraph Indentation: espai horitzontal previ a l'inici d'un paragraf
+\setlength{\parskip}{1em} %Paragraph spacing: espai entre paragraphs
+\onehalfspace %Line spacing: interlineat
+
+%Exemples macos: http://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends
 
 \title{Titol}
 \author{Arnau Villoro Bort}
