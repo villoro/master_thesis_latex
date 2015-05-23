@@ -58,6 +58,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{BAAS}{}%
+{%
+\gls@defglossaryentry{BAAS}%
+{%
+name={\textit {Backend as a Service (BaaS}},%
+sort={\textit {Backend as a Service (BaaS}},%
+type={main},%
+first={\protect \textit {Backend as a Service (BaaS}},%
+firstplural={\protect \textit {Backend as a Service (BaaS}s},%
+text={\protect \textit {Backend as a Service (BaaS}},%
+plural={\protect \textit {Backend as a Service (BaaS}s},%
+description={És un model per proveir als desenvolupadors d'apliacions mòbils una forma d'emmagatzematge de dades al núvol i altres funcions.},%
+descriptionplural={És un model per proveir als desenvolupadors d'apliacions mòbils una forma d'emmagatzematge de dades al núvol i altres funcions.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{BB}{}%
+{%
+\gls@defglossaryentry{BB}%
+{%
+name={\textit {Branch and bound}},%
+sort={\textit {Branch and bound}},%
+type={main},%
+first={\protect \textit {Branch and bound}},%
+firstplural={\protect \textit {Branch and bound}s},%
+text={\protect \textit {Branch and bound}},%
+plural={\protect \textit {Branch and bound}s},%
+description={És un algoritme d'optimització emprat, entre d'altres problemes, per trobar una solució amb variables enteres a partir d'una on totes les variables tenen valors reals.},%
+descriptionplural={És un algoritme d'optimització emprat, entre d'altres problemes, per trobar una solució amb variables enteres a partir d'una on totes les variables tenen valors reals.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{affinity_diagram}{}%
 {%
 \gls@defglossaryentry{affinity_diagram}%
@@ -298,6 +358,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{lp_solve}{}%
+{%
+\gls@defglossaryentry{lp_solve}%
+{%
+name={LP solve},%
+sort={LP solve},%
+type={main},%
+first={LP solve},%
+firstplural={LP solves},%
+text={LP solve},%
+plural={LP solves},%
+description={Llibreria per a resoldre problemes de programació lineal, incloent PLEM [\url {http://lpsolve.sourceforge.net/}]},%
+descriptionplural={Llibreria per a resoldre problemes de programació lineal, incloent PLEM [\url {http://lpsolve.sourceforge.net/}]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Material}{}%
 {%
 \gls@defglossaryentry{Material}%
@@ -401,6 +491,36 @@ text={\protect \textit {mockup}},%
 plural={\protect \textit {mockup}s},%
 description={És una representació estàtica de fidelitat mitja o alta. Representa l'estructura de la informació i demostra les funcionalitats bàsiques d'una manera estàtica.},%
 descriptionplural={És una representació estàtica de fidelitat mitja o alta. Representa l'estructura de la informació i demostra les funcionalitats bàsiques d'una manera estàtica.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Nexus_5}{}%
+{%
+\gls@defglossaryentry{Nexus_5}%
+{%
+name={Nexus 5},%
+sort={Nexus 5},%
+type={main},%
+first={Nexus 5},%
+firstplural={Nexus 5s},%
+text={Nexus 5},%
+plural={Nexus 5s},%
+description={\textit {Smartphone} creat expressament per a desenvolupadors al 2013.},%
+descriptionplural={\textit {Smartphone} creat expressament per a desenvolupadors al 2013.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -671,6 +791,36 @@ text={\protect \textit {smartphone}},%
 plural={\protect \textit {smartphone}s},%
 description={Telefon intel·ligent que permeten realitzar tasques semblants a les realitzades per ordinadors},%
 descriptionplural={Telefon intel·ligent que permeten realitzar tasques semblants a les realitzades per ordinadors},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SQLite}{}%
+{%
+\gls@defglossaryentry{SQLite}%
+{%
+name={\textit {SQLite}},%
+sort={\textit {SQLite}},%
+type={main},%
+first={\protect \textit {SQLite}},%
+firstplural={\protect \textit {SQLite}s},%
+text={\protect \textit {SQLite}},%
+plural={\protect \textit {SQLite}s},%
+description={Llenguatge per a bases de dades relacionals basat en SQL.},%
+descriptionplural={Llenguatge per a bases de dades relacionals basat en SQL.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
