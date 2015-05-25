@@ -8,11 +8,12 @@ Un cop s'analitza el problema es pot veure que s'assembla al típic problema del
 Agafem com a exemple les següents persones amb els balanços de la taula \ref{table:balances}.
 
 \begin{table}
+\centering
 \caption{Exemple dels balanços en un grup}
 \label{table:balances}
 \begin{tabular}{ | l | r |}
 \hline
-Persona & Balanç \\
+\headB{Persona} & \headB{Balanç} \\
 \hline
 Arnau & 20,33 \\
 \hline
@@ -29,19 +30,20 @@ Elena & -15,07 \\
 
 
 \begin{table}
+\centering
 \caption{Exemple d'una resolució}
 \label{table:resolution}
 \begin{tabular}{ | r | l | r | r |}
+ \cline{3-4}
+\noBorde{c} & \noBorde{c|} & 20,33 & 8,57 \\
+ \cline{3-4}
+\noBorde{c} & \noBorde{c|} & \headB{Arnau} & \headB{David} \\
  \hline
- & & 20,33 & 8,57 \\
+ 3,9 & \headB{Berta} & & 3,9\\
  \hline
- & & Arnau & David \\
+ 10,01 & \headB{Càrol} & 5,32 & 4,69\\
  \hline
- 3,9 & Berta & & 3,9\\
- \hline
- 10,01 & Càrol & 5,32 & 4,69\\
- \hline
- 15,01 & Elena & 15,01 & \\
+ 15,01 & \headB{Elena} & 15,01 & \\
  \hline
 \end{tabular}
 \end{table}

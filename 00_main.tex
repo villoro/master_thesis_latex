@@ -15,10 +15,17 @@
 \newcommand*\barrier{\includegraphics[scale=0.5]{red_lightning.png}} %simbol llamp
 \newcommand*\blacktriangle{\includegraphics[scale=0.05]{blacktriangle.png}}
 
+\renewcommand{\chaptername}{Capítol}
 \renewcommand{\contentsname}{Sumari}
 \renewcommand{\listtablename}{Llista de taules}
 \renewcommand{\figurename}{Figura}
 \renewcommand{\tablename}{Taula} 
+
+%Colors a les taules
+\usepackage{xcolor, colortbl}
+\definecolor{blue_table_1}{RGB}{220,230,241}
+\definecolor{blue_table_2}{RGB}{141,180,226}
+\definecolor{blue_table_3}{RGB}{83,141,213}
 
 %Mides i format dels paràgrafs i del text
 \setlength{\parindent}{1em} %Paragraph Indentation: espai horitzontal previ a l'inici d'un paragraf
@@ -34,6 +41,16 @@
 
 %------------------------------------------------------------------
 \begin{document}
+
+\newcommand{\blueA}{\cellcolor{blue_table_1}}
+\newcommand{\blueB}{\cellcolor{blue_table_2}}
+\newcommand{\blueC}{\cellcolor{blue_table_3}}
+\newcommand{\headA}[1]{\multicolumn{1}{|c|}{\blueA \textbf{#1}}}
+\newcommand{\headB}[1]{\multicolumn{1}{|c|}{\blueB \textbf{#1}}}
+\newcommand{\headC}[1]{\multicolumn{1}{|c|}{\blueC \textbf{#1}}}
+\newcommand{\noBorde}[1]{\multicolumn{1}{#1}{}}
+
+
 \frontmatter
 
 \includepdf{Portada.pdf}
