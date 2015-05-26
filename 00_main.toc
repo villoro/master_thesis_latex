@@ -1,8 +1,8 @@
 \contentsline {chapter}{Resum}{iii}{chapter*.1}
+\contentsline {chapter}{Acr\IeC {\`o}nims}{ix}{chapter*.3}
 \contentsline {chapter}{Glossari}{ix}{chapter*.3}
+\contentsline {chapter}{Aplicacions (Apps)}{xiii}{chapter*.6}
 \contentsline {chapter}{Prefaci}{xv}{chapter*.7}
-\contentsline {section}{\numberline {0.1}Origen del projecte}{xv}{section.0.1}
-\contentsline {subsection}{\numberline {0.1.1}Motivaci\IeC {\'o}}{xv}{subsection.0.1.1}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objectius del projecte}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Abast del projecte}{2}{section.1.2}
@@ -72,4 +72,7 @@
 \contentsline {chapter}{\numberline {6}Impacte ambiental}{47}{chapter.6}
 \contentsline {chapter}{\numberline {7}Estudi de costos}{49}{chapter.7}
 \contentsline {chapter}{\numberline {8}Conclusions}{51}{chapter.8}
-\contentsline {chapter}{\numberline {9}Agra\IeC {\"\i }ments}{53}{chapter.9}
+\contentsline {section}{\numberline {8.1}Problema del repartiment de despeses}{51}{section.8.1}
+\contentsline {section}{\numberline {8.2}Recomanacions}{53}{section.8.2}
+\contentsline {section}{\numberline {8.3}Futur de l'estudi/aplicaci\IeC {\'o}}{53}{section.8.3}
+\contentsline {chapter}{\numberline {9}Agra\IeC {\"\i }ments}{55}{chapter.9}
