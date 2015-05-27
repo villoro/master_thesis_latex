@@ -75,7 +75,5 @@
 \contentsline {section}{\numberline {7.2}Impacte de l'\IeC {\'u}s de l'aplicaci\IeC {\'o}}{50}{section.7.2}
 \contentsline {chapter}{\numberline {8}Estudi de costos}{51}{chapter.8}
 \contentsline {chapter}{\numberline {9}Conclusions}{53}{chapter.9}
-\contentsline {section}{\numberline {9.1}Problema del repartiment de despeses}{53}{section.9.1}
-\contentsline {section}{\numberline {9.2}Recomanacions}{55}{section.9.2}
-\contentsline {section}{\numberline {9.3}Futur de l'estudi/aplicaci\IeC {\'o}}{55}{section.9.3}
+\contentsline {section}{\numberline {9.1}Futur de l'estudi/aplicaci\IeC {\'o}}{55}{section.9.1}
 \contentsline {chapter}{\numberline {10}Agra\IeC {\"\i }ments}{57}{chapter.10}
