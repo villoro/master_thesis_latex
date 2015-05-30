@@ -11,10 +11,43 @@
 \usepackage{eurosym} \DeclareUnicodeCharacter{20AC}{\euro} %pel simbol €
 \usepackage{setspace} %Per l'interlineat
 \usepackage{subcaption} %Per posar imatges una al costat de l'altre
+\usepackage{fancyhdr} %Capçalera i Peu de pagina maco
 
 \newcommand*\barrier{\includegraphics[scale=0.5]{red_lightning.png}} %simbol llamp
 \newcommand*\blacktriangle{\includegraphics[scale=0.05]{blacktriangle.png}}
 
+%Mides document
+\geometry{
+ a4paper,
+ total={210mm,297mm},
+ left=30mm, %interior
+ right=20mm, %exterior 
+ top=25mm,
+ bottom=25mm,
+ includehead, includefoot %Incloure capçalera i peu dins dels marges 
+}
+
+%Format de les pàgines d'inici de capítol
+\fancypagestyle{plain}{
+	\fancyhf{} % clear all header and footer fields
+	\fancyhead[LE, RO]{\thepage} %Part exterior
+	\fancyhead[LO, RE]{Estudi de l'UX sobre les aplicacions de gestió de despeses personal per Android} %Part interior
+	\renewcommand{\footrulewidth}{0pt}
+}
+
+%Format de la capçalera i del peu pàgina
+\pagestyle{fancy}
+\fancyhead[LE, RO]{\thepage} %Part exterior
+\fancyhead[LO, RE]{Estudi de l'UX sobre les aplicacions de gestió de despeses personal per Android} %Part interior
+%\fancyfoot[LE, RO]{\leftmark} %Part exterior
+%\fancyfoot[LO, RE]{Arnau Villoro Bort} %Pert interior
+\fancyfoot[C]{} %Eliminar part central
+\fancyfoot[LE, RO]{\includegraphics[height=1.5cm]{logo_etseib.png}} %Logo
+\textheight = 225mm %Deixar espai pel logo reduint espai pel text
+\footskip = 22mm %Deixar espai pel logo augmentant el peu de pagina
+
+
+%Noms de les parts
 \renewcommand{\chaptername}{Capítol}
 \renewcommand{\contentsname}{Sumari}
 \renewcommand{\listtablename}{Llista de taules}
