@@ -4,23 +4,35 @@
 \glossentry{Android_Studio}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{23}}}%
 \glossentry{BAAS}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{39}}}%
+		\setentrycounter[]{page}\glsnumberformat{37}}}%
 \glossentry{Balsamiq_Mockups}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{30}}}%
 \glossentry{BB}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{38}}}%
+		\setentrycounter[]{page}\glsnumberformat{36}}}%
 \glossentry{SQLite}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{39}}}%
+		\setentrycounter[]{page}\glsnumberformat{37}}}%
 \glossentry{SUS}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{17}}}%
+\glossentry{USE}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{14}}}%
+\glossentry{Av_formativa}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{30}}}%
+\glossentry{Av_sumarial}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{27}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{29\delimN 30}}}%
 \glossentry{smartphone}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{xv}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{39}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43\delimR 45}}}%
+		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{41\delimR 43}}}%
 \glossentry{wireframe}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16}}}\glsgroupskip
 \glsgroupheading{A}\relax \glsresetentrylist %
@@ -31,8 +43,8 @@
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{48\delimN 49}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{41}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{46\delimN 47}}}\glsgroupskip
 \glsgroupheading{D}\relax \glsresetentrylist %
 \glossentry{conceptual_design}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
@@ -42,13 +54,23 @@
 		\setentrycounter[]{page}\glsnumberformat{19}}}\glsgroupskip
 \glsgroupheading{L}\relax \glsresetentrylist %
 \glossentry{lp_solve}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{37}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{35}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{Nexus_5}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{37}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{43}}}%
+		\setentrycounter[]{page}\glsnumberformat{35}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{41}}}%
 \glossentry{workActivityNotes}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{21}}}%
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossentry{prototip_h}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}}}%
+\glossentry{prototip_l}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}}}%
+\glossentry{prototip_v}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{23}}}%
 \end{theglossary}\glossarypostamble

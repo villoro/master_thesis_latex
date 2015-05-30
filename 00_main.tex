@@ -33,18 +33,21 @@
 	\fancyhead[LE, RO]{\thepage} %Part exterior
 	\fancyhead[LO, RE]{Estudi de l'UX sobre les aplicacions de gestió de despeses personal per Android} %Part interior
 	\renewcommand{\footrulewidth}{0pt}
+	\fancyfoot[LE, RO]{\includegraphics[height=1.5cm]{logo_etseib.png}} %Logo
+	\textheight = 225mm %Deixar espai pel logo reduint espai pel text
+	\footskip = 22mm %Deixar espai pel logo augmentant el peu de pagina
 }
 
 %Format de la capçalera i del peu pàgina
 \pagestyle{fancy}
-\fancyhead[LE, RO]{\thepage} %Part exterior
-\fancyhead[LO, RE]{Estudi de l'UX sobre les aplicacions de gestió de despeses personal per Android} %Part interior
+	\fancyhead[LE, RO]{\thepage} %Part exterior
+	\fancyhead[LO, RE]{Estudi de l'UX sobre les aplicacions de gestió de despeses personal per Android} %Part interior
 %\fancyfoot[LE, RO]{\leftmark} %Part exterior
 %\fancyfoot[LO, RE]{Arnau Villoro Bort} %Pert interior
-\fancyfoot[C]{} %Eliminar part central
-\fancyfoot[LE, RO]{\includegraphics[height=1.5cm]{logo_etseib.png}} %Logo
-\textheight = 225mm %Deixar espai pel logo reduint espai pel text
-\footskip = 22mm %Deixar espai pel logo augmentant el peu de pagina
+	\fancyfoot[C]{} %Eliminar part central
+	\fancyfoot[LE, RO]{\includegraphics[height=1.5cm]{logo_etseib.png}} %Logo
+	\textheight = 225mm %Deixar espai pel logo reduint espai pel text
+	\footskip = 22mm %Deixar espai pel logo augmentant el peu de pagina
 
 
 %Noms de les parts
@@ -105,7 +108,8 @@
 
 
 \include{20_estudi}
-\chapter{Avaluació dels resultats}
+
+
 \include{30_Parts_app}
 
 \include{60_Impacte_ambiental}

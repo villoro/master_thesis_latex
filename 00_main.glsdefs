@@ -28,6 +28,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{Av_formativa}{}%
+{%
+\gls@defglossaryentry{Av_formativa}%
+{%
+name={\textit {avaluació formativa}},%
+sort={\textit {avaluació formativa}},%
+type={main},%
+first={\protect \textit {avaluaci\IeC {\'o} formativa}},%
+firstplural={\protect \textit {avaluaci\IeC {\'o} formativa}s},%
+text={\protect \textit {avaluaci\IeC {\'o} formativa}},%
+plural={\protect \textit {avaluaci\IeC {\'o} formativa}s},%
+description={Consisteix en recol·lectar informació qualitativa per identificar i arreglar problemes de \ac {UX} i les seves causes en el disseny.},%
+descriptionplural={Consisteix en recol·lectar informació qualitativa per identificar i arreglar problemes de \ac {UX} i les seves causes en el disseny.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Av_sumarial}{}%
+{%
+\gls@defglossaryentry{Av_sumarial}%
+{%
+name={\textit {avaluació sumarial}},%
+sort={\textit {avaluació sumarial}},%
+type={main},%
+first={\protect \textit {avaluaci\IeC {\'o} sumarial}},%
+firstplural={\protect \textit {avaluaci\IeC {\'o} sumarial}s},%
+text={\protect \textit {avaluaci\IeC {\'o} sumarial}},%
+plural={\protect \textit {avaluaci\IeC {\'o} sumarial}s},%
+description={Consisteix en recol·lectar informació quantitativa per assegurar un nivell de qualitat en un disseny, especialment per a l'avaluació de la millora de la \ac {UX} a causa de l'avaluació formativa.},%
+descriptionplural={Consisteix en recol·lectar informació quantitativa per assegurar un nivell de qualitat en un disseny, especialment per a l'avaluació de la millora de la \ac {UX} a causa de l'avaluació formativa.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{Android_Studio}{}%
 {%
 \gls@defglossaryentry{Android_Studio}%
@@ -941,6 +1001,36 @@ text={treballar},%
 plural={treballars},%
 description={Dins de l'àmbit d'UX, és interactuar o utilitzar el sistema/producte.},%
 descriptionplural={Dins de l'àmbit d'UX, és interactuar o utilitzar el sistema/producte.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{USE}{}%
+{%
+\gls@defglossaryentry{USE}%
+{%
+name={\textit {USE}},%
+sort={\textit {USE}},%
+type={main},%
+first={\protect \textit {USE}},%
+firstplural={\protect \textit {USE}s},%
+text={\protect \textit {USE}},%
+plural={\protect \textit {USE}s},%
+description={Qüestionari d'UX amb 30 preguntes que permet puntuar un producte o sistema.},%
+descriptionplural={Qüestionari d'UX amb 30 preguntes que permet puntuar un producte o sistema.},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

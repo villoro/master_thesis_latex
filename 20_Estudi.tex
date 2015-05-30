@@ -67,7 +67,6 @@ Actualment té uns ingressos baixos, per això intenta controlar les seves despe
 La Maria és una jove de gairebé 30 anys que treballa de monitora en un gimnàs. A més, a la Maria li agrada molt viatjar i sempre que pot aprofita per fer-ho amb els seus amics.
 La Maria no està gaire interessada en els “números” i la comptabilitat, a més arriba a final de més (econòmicament) sense masses problemes. És per això que no vol enregistrar les seves despeses/ingressos. Però quan viatja això canvia, està acostumada a que els seus amics apuntin les despeses compartides que fan i que al acabar el viatge li diguin quants diners li deu (o deuen) i a quin dels seus amics. Quan li diuen només inverteix una estona a comprovar que no li hagin sumat alguna despesa de les quals no a participat. 
 
-\paragraph{•}
 Un cop creats els personatges s'ha començat a dissenyar. En les primeres iteracions el disseny s'ha efectuat a ma alçada, fent servir només unes plantilles rectangulars que simulaven la pantalla. A mesura que es refinava el disseny s'ha fet el canvi de fet a mà a fet amb ordinador. S'ha fet servir el programa \gls{Balsamiq_Mockups} (https://balsamiq.com/) ja que permet fer dissenys que simulen una aparença de baixa fidelitat, d'aquesta manera es garanteix que els usuaris no tinguin por de criticar el disseny (veure secció \ref{subsec:implementation}). Finalment, a les últimes iteracions s'ha passat a dissenys detallats al píxel fent servir el programa \gls{Android_Studio}. Es pot veure l'evolució dels dissenys a les taules \ref{table:images_app1}, \ref{table:images_app2} i \ref{table:images_app3}.
 
 \begin{table}
@@ -129,7 +128,7 @@ Esbossos & Disseny Conceptual - intermedi & Disseny detallat - refinat \\
 \section{Implementació}
 En aquesta etapa s'han creat prototips per conformar els dissenys de l'etapa anterior. A la taula \ref{table:prototypes} es poden veure els prototips que s'han creat. Els tres primers prototips venen a ser l'equivalent a prototips de paper, però enlloc de fer servir paper s'han fet servir dues aplicacions online que serveixen per fer prototips animats a partir d'imatges. Aquests es poden fer servir posteriorment en un \gls{smartphone} de manera que l'usuari té una experiència més propera a la realitat.
 
-En quan als prototips en si, en primer lloc s'ha fet un prototip horitzontal de baixa fidelitat (PH1) per una primera presa de contacte amb el producte previst amb una fidelitat baixa. Després s'han creat 3 prototips de mitja fidelitat. El primer (PH2) és un prototip horitzontal que ha servit per definir la navegació en línies generals. El segon (PV1) és un prototip vertical que ha servit per explorar dues possibilitats que hi havien a l'hora de tractar els ingressos i les despeses. El tercer (PL1) és un prototip local programat per a comprovar si els usuaris es sentien còmodes amb la pantalla d'afegir una transacció grupal. Finalment s'ha fet un prototip d'alta fidelitat, amb les seccions i funcions més importants, el qual és molt pròxim a com ha de ser l'aplicació a la realitat. 
+En quan als prototips en si, en primer lloc s'ha fet un \gls{prototip_h} de baixa fidelitat (PH1) per una primera presa de contacte amb el producte previst amb una fidelitat baixa. Després s'han creat 3 prototips de mitja fidelitat. El primer (PH2) és un \gls{prototip_h} que ha servit per definir la navegació en línies generals. El segon (PV1) és un \gls{prototip_v} que ha servit per explorar dues possibilitats que hi havien a l'hora de tractar els ingressos i les despeses. El tercer (PL1) és un \gls{prototip_l} programat per a comprovar si els usuaris es sentien còmodes amb la pantalla d'afegir una transacció grupal. Finalment s'ha fet un prototip d'alta fidelitat, amb les seccions i funcions més importants, el qual és molt pròxim a com ha de ser l'aplicació a la realitat. 
 
 \begin{table}
 \begin{tabular}{ | p{1.6cm} | c | p{1.9cm} | l | l |}
@@ -144,7 +143,7 @@ PV1 & \includegraphics[width=0.7cm]{PV1.png} & Vertical & Mitja & \href{https://
 \hline
 PL1 & \includegraphics[width=0.7cm]{PL1.png} & Local & Mitja &  \\ %TODO link
 \hline
-Expensor beta & \includegraphics[width=0.7cm]{logo.png} & Complet & Alta &  \\ %TODO link
+Expensor & \includegraphics[width=0.7cm]{logo.png} & Complet & Alta &  \\ %TODO link
 \hline
 \end{tabular}
 \caption{Prototips creats}
@@ -154,20 +153,20 @@ Expensor beta & \includegraphics[width=0.7cm]{logo.png} & Complet & Alta &  \\ %
 \section{Avaluació}
 En aquesta etapa l'objectiu era validar, mitjançant els diversos prototips, que els dissenys creats garantien una bona \ac{UX}. A les primeres iteracions de l'estudi, quan els prototips i els dissenys eren de baixa fidelitat, aquests només s'han mostrat a un grup molt reduït d'usuaris de confiança. I és que no tots els usuaris entenen amb facilitat dissenys de baixa fidelitat.
 
-\subsubsection{Avaluació formativa}
-Un cop es treballava amb prototips de fidelitat mitja (PH2, PV1 i PL1), s'han concertat entrevistes amb els diferents usuaris per a que els provessin. Aquestes entrevistes s'han fet seguint una plantilla (figura \ref{fig:qf}) per fer una avaluació formativa als prototips. En total s'ha fet 22 entrevistes. %TODO link entrevistes
-És important comentar que els prototips de mitja fidelitat s'han anat millorant, quan ha estat possible, a mesura que els usuaris aportaven la seva opinió en forma d'avaluació formativa. És per això que si es llegeixen les entrevistes i es miren els prototips, hi ha comentaris dels usuaris que sembla que no tinguin sentit, perquè s'ha tingut en compte i millorat el prototip en qüestió conseqüentment. 
+\subsubsection{\Gls{Av_formativa}}
+Un cop es treballava amb prototips de fidelitat mitja (PH2, PV1 i PL1. Veure taula \ref{table:prototypes}), s'han concertat entrevistes amb els diferents usuaris per a que els provessin. Aquestes entrevistes s'han fet seguint una plantilla (figura \ref{fig:qf}) per fer una \gls{Av_formativa} als prototips. En total s'ha fet 22 entrevistes. %TODO link entrevistes
+És important comentar que els prototips de mitja fidelitat s'han anat millorant, quan ha estat possible, a mesura que els usuaris aportaven la seva opinió en forma d'\gls{Av_formativa}. És per això que si es llegeixen les entrevistes i es miren els prototips, hi ha comentaris dels usuaris que sembla que no tinguin sentit, perquè s'ha tingut en compte i millorat el prototip en qüestió conseqüentment. 
 
 \begin{figure}[htp]
 \centering
 \includegraphics[scale=1]{qf.png}
-\caption{Plantilla per a l'avaluació formativa}\label{fig:qf}
+\caption{Plantilla per a l'\gls{Av_formativa} }\label{fig:qf}
 \end{figure}
 
-\subsubsection{Avaluació sumarial 1}
-Després de l'avaluació formativa s'ha passat a fer l'avaluació sumarial de l'aplicació. S'ha fet en dues parts, una primera avaluant  el prototip final (Expensor beta) juntament amb les 10 aplicacions ja existents. A la segona part s'ha avaluat amb més detall les 2 aplicacions de l'etapa anterior juntament amb el prototip final.
+\subsubsection{\Gls{Av_sumarial} 1}
+Després de l'\gls{Av_formativa} s'ha passat a fer l'\gls{Av_sumarial} de l'aplicació. S'ha fet en dues parts, una primera avaluant  el prototip final (Expensor beta) juntament amb les 10 aplicacions ja existents. A la segona part s'ha avaluat amb més detall les 2 aplicacions de l'etapa anterior juntament amb el prototip final.
 
-Aquesta primera part de l'avaluació sumarial s'ha fet deixant provar les aplicacions a 4 usuaris i després demanant-los que omplissin el qüestionari SUS. S'ha fet servir aquest qüestionari perquè és ràpid de fer, només té 10 preguntes, i permet fer un primer anàlisi de fins a quin punt cada aplicació garanteix una bona \ac{UX} o no. A la figura \ref{fig:SUS_analisi} es pot veure la puntuació (mitjana dels 4 usuaris) del qüestionari SUS per a cada aplicació. Els valors del qüestionari SUS estan entre 0 i 100, on el 100 és la millor puntuació possible. A més a la figura \ref{fig:SUS_table} es pot veure el resultat mitja de cada pregunta per cada aplicació (els valors estan entre 0 i 10).
+Aquesta primera part de l'\gls{Av_sumarial} s'ha fet deixant provar les aplicacions a 4 usuaris i després demanant-los que omplissin el qüestionari SUS. S'ha fet servir aquest qüestionari perquè és ràpid de fer, només té 10 preguntes, i permet fer un primer anàlisi de fins a quin punt cada aplicació garanteix una bona \ac{UX} o no. A la figura \ref{fig:SUS_analisi} es pot veure la puntuació (mitjana dels 4 usuaris) del qüestionari SUS per a cada aplicació. Els valors del qüestionari SUS estan entre 0 i 100, on el 100 és la millor puntuació possible. A més a la figura \ref{fig:SUS_table} es pot veure el resultat mitja de cada pregunta per cada aplicació (els valors estan entre 0 i 10).
 
 \begin{figure}[htp]
 \centering
@@ -183,8 +182,9 @@ Aquesta primera part de l'avaluació sumarial s'ha fet deixant provar les aplica
 
 Com es pot comprovar les aplicacions que garanteixen una millor \ac{UX} són Expense Manager (A002), Money Lover (A007) i el Expensor beta (A011). És per això que s'han fet servir les 3 per fer un anàlisi amb més profunditat i amb més usuaris.
 
-\subsubsection{Avaluació sumarial 2}
-Partint de les 3 millor aplicacions de la primera part de l'avaluació sumarial (una d'elles és el prototip creat) s'ha deixat provar les aplicacions a X usuaris. %TODO change X
+\subsubsection{\Gls{Av_sumarial} 2}
+Partint de les 3 millor aplicacions de la primera part de l'\gls{Av_sumarial} (una d'elles és el prototip creat) s'ha deixat provar les aplicacions a 13 usuaris. 
+
 Després aquests usuaris han respost el qüestionari USE el qual és bastant més complet que el SUS. De cada aplicació s'ha fet la mitjana de tots els usuaris donant lloc a la puntuació de cada aplicació la qual, com al qüestionari SUS, està entre 0 i 100. Les puntuacions de les 3 aplicacions es poden veure a la figura \ref{fig:USE_1} i a la figura \ref{fig:USE_2} s'ha modificat l'eix vertical per a que es vegin millor les diferencies.
 
 \begin{figure}
@@ -207,13 +207,15 @@ Després aquests usuaris han respost el qüestionari USE el qual és bastant mé
 \caption{Resultats del questionari USE per cada aplicació}\label{fig:USE_result}
 \end{figure}
 
-Com que el questionari USE està dividit en 4 seccions, s'ha calculat la nota de cada aplicació per cada secció (entre 0 i 10), veient així els punts forts i febles de cada aplicació. Es poden veure aquestes puntuacions a la figura \ref{fig:USE_2}
+Com que el questionari USE està dividit en 4 seccions, s'ha calculat la nota de cada aplicació per cada secció (entre 0 i 10), veient així els punts forts i febles de cada aplicació. Es poden veure aquestes puntuacions a la figura \ref{fig:USE_3}
 
 \begin{figure}[htp]
 \centering
 \includegraphics[scale=0.7]{USE_3.png}
-\caption{Resultats del questionari USE de cada secció per cada aplicació}\label{fig:USE_2}
+\caption{Resultats del questionari USE de cada secció per cada aplicació}\label{fig:USE_3}
 \end{figure}
+
+S'ha comprovat que el prototip programat proporciona una millor \ac{UX} respecte les dues aplicacions existents. Concretament s'ha vist que és més útil, més fàcil de fer servir i aporta més satisfacció. 
 
 \section{El procés iteratiu}
 Les 4 etapes abans descrites no s'han dut a terme de forma lineal, sinó que s'ha seguit un procés iteratiu. Cronològicament l'estudi s'ha fet de la següent forma:
@@ -230,6 +232,6 @@ Les 4 etapes abans descrites no s'han dut a terme de forma lineal, sinó que s'h
 \subsubsection{Disseny i anàlisi amb prototips de baixa fidelitat}
 Aquesta iteració inclou els esbossos inicials i el prototip PH1. Al ser de baixa fidelitat només s'ha avaluat amb un grup reduït d'usuaris de confiança.
 \subsubsection{Disseny i anàlisi amb prototips de mitja fidelitat}
-En aquesta iteració s'han dissenyat els tres prototips de mitja fidelitat PH2, PV1 i PL1 mitjançant el programa \gls{Balsamiq_Mockups}. Per avaluar-los s'han fet 22 entrevistes als usuaris conduïdes amb una enquesta per a l'avaluació formativa.
+En aquesta iteració s'han dissenyat els tres prototips de mitja fidelitat PH2, PV1 i PL1 mitjançant el programa \gls{Balsamiq_Mockups}. Per avaluar-los s'han fet 22 entrevistes als usuaris conduïdes amb una enquesta per a l'\gls{Av_formativa}.
 \subsubsection{Disseny i anàlisi del prototip d'alta fidelitat}
-En aquesta iteració s'ha creat un prototip completament programat. S'ha fet una primera avaluació sumarial amb un qüestionari curt (SUS), comparant-lo amb les altres aplicacions ja existents. Després s'ha fet una segona avaluació sumarial amb més profunditat del prototip final juntament amb les 2 millors aplicacions de l'avaluació sumarial anterior. 
+En aquesta iteració s'ha creat un prototip completament programat. S'ha fet una primera \gls{Av_sumarial} amb un qüestionari curt (SUS), comparant-lo amb les altres aplicacions ja existents. Després s'ha fet una segona \gls{Av_sumarial} amb més profunditat del prototip final juntament amb les 2 millors aplicacions de l'\gls{Av_sumarial} anterior. 

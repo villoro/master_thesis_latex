@@ -1,8 +1,8 @@
 \contentsline {chapter}{Resum}{iii}{chapter*.1}
 \contentsline {chapter}{Acr\IeC {\`o}nims}{ix}{chapter*.3}
 \contentsline {chapter}{Glossari}{ix}{chapter*.3}
-\contentsline {chapter}{Aplicacions (Apps)}{xiii}{chapter*.6}
-\contentsline {chapter}{Prefaci}{xv}{chapter*.7}
+\contentsline {chapter}{Aplicacions (Apps)}{xiii}{chapter*.7}
+\contentsline {chapter}{Prefaci}{xv}{chapter*.8}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objectius del projecte}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Abast del projecte}{2}{section.1.2}
@@ -12,18 +12,18 @@
 \contentsline {subsection}{\numberline {2.2.1}An\IeC {\`a}lisi}{4}{subsection.2.2.1}
 \contentsline {subsubsection}{Investigaci\IeC {\'o} contextual}{4}{section*.12}
 \contentsline {subsubsection}{An\IeC {\`a}lisi contextual}{5}{section*.13}
-\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments d'interacci\IeC {\'o}}{5}{section*.17}
+\contentsline {subsubsection}{Extracci\IeC {\'o} dels requeriments d'interacci\IeC {\'o}}{7}{section*.17}
 \contentsline {subsubsection}{Construcci\IeC {\'o} de models informatius per al disseny}{7}{section*.19}
 \contentsline {subsection}{\numberline {2.2.2}Disseny}{8}{subsection.2.2.2}
 \contentsline {subsubsection}{Ideaci\IeC {\'o} i esbossos}{9}{section*.21}
 \contentsline {subsubsection}{Disseny conceptual}{9}{section*.22}
-\contentsline {subsubsection}{Disseny intermedi}{9}{section*.23}
+\contentsline {subsubsection}{Disseny intermedi}{10}{section*.23}
 \contentsline {subsubsection}{Disseny detallat}{10}{section*.24}
 \contentsline {subsubsection}{Refinat del disseny}{10}{section*.26}
-\contentsline {subsection}{\numberline {2.2.3}Implementaci\IeC {\'o}}{10}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.3}Implementaci\IeC {\'o}}{11}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Avaluaci\IeC {\'o}}{12}{subsection.2.2.4}
 \contentsline {subsubsection}{Detecci\IeC {\'o} d'incidents cr\IeC {\'\i }tics}{13}{section*.28}
-\contentsline {subsubsection}{T\IeC {\`e}cnica "pensar en veu alta"}{13}{section*.29}
+\contentsline {subsubsection}{T\IeC {\`e}cnica "pensar en veu alta"}{14}{section*.29}
 \contentsline {subsubsection}{Demostraci\IeC {\'o} del producte}{14}{section*.30}
 \contentsline {subsubsection}{Inspecci\IeC {\'o}}{14}{section*.31}
 \contentsline {subsubsection}{Q\IeC {\"u}estionaris}{14}{section*.32}
@@ -41,39 +41,37 @@
 \contentsline {section}{\numberline {4.2}Disseny}{21}{section.4.2}
 \contentsline {subsubsection}{Rex Cooper}{22}{section*.41}
 \contentsline {subsubsection}{Maria Gestalt}{22}{section*.43}
-\contentsline {paragraph}{\IeC {\textbullet }}{23}{section*.44}
 \contentsline {section}{\numberline {4.3}Implementaci\IeC {\'o}}{23}{section.4.3}
 \contentsline {section}{\numberline {4.4}Avaluaci\IeC {\'o}}{23}{section.4.4}
-\contentsline {subsubsection}{Avaluaci\IeC {\'o} formativa}{23}{section*.49}
-\contentsline {subsubsection}{Avaluaci\IeC {\'o} sumarial 1}{27}{section*.51}
-\contentsline {subsubsection}{Avaluaci\IeC {\'o} sumarial 2}{29}{section*.54}
+\contentsline {subsubsection}{\Gls {Av_formativa}}{23}{section*.48}
+\contentsline {subsubsection}{\Gls {Av_sumarial} 1}{27}{section*.50}
+\contentsline {subsubsection}{\Gls {Av_sumarial} 2}{29}{section*.53}
 \contentsline {section}{\numberline {4.5}El proc\IeC {\'e}s iteratiu}{30}{section.4.5}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de baixa fidelitat}{30}{section*.57}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de mitja fidelitat}{30}{section*.58}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi del prototip d'alta fidelitat}{30}{section*.59}
-\contentsline {chapter}{\numberline {5}Avaluaci\IeC {\'o} dels resultats}{31}{chapter.5}
-\contentsline {chapter}{\numberline {6}Parts rellevants de l'aplicaci\IeC {\'o}}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Problema del repartiment de despeses}{33}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Primera modelitzaci\IeC {\'o} del problema amb resoluci\IeC {\'o} exacte}{34}{subsection.6.1.1}
-\contentsline {subsubsection}{Dades}{34}{section*.63}
-\contentsline {subsubsection}{Variables}{35}{section*.64}
-\contentsline {subsubsection}{Restriccions}{35}{section*.65}
-\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{35}{section*.66}
-\contentsline {subsubsection}{Par\IeC {\`a}metres}{35}{section*.67}
-\contentsline {subsection}{\numberline {6.1.2}Modelitzaci\IeC {\'o} millorada amb resoluci\IeC {\'o} exacte}{35}{subsection.6.1.2}
-\contentsline {subsubsection}{Dades}{36}{section*.68}
-\contentsline {subsubsection}{Variables}{36}{section*.69}
-\contentsline {subsubsection}{Restriccions}{36}{section*.70}
-\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{36}{section*.71}
-\contentsline {subsubsection}{Par\IeC {\`a}metres}{36}{section*.72}
-\contentsline {subsubsection}{Post-proc\IeC {\'e}s}{37}{section*.73}
-\contentsline {subsection}{\numberline {6.1.3}Estudi del temps computacional de la modelitzaci\IeC {\'o} millorada}{37}{subsection.6.1.3}
-\contentsline {subsection}{\numberline {6.1.4}Algoritme final}{38}{subsection.6.1.4}
-\contentsline {section}{\numberline {6.2}Disseny de la base de dades}{39}{section.6.2}
-\contentsline {chapter}{\numberline {7}Impacte ambiental}{43}{chapter.7}
-\contentsline {section}{\numberline {7.1}Impacte de l'estudi d'Experi\IeC {\`e}ncia d'Usuari}{43}{section.7.1}
-\contentsline {section}{\numberline {7.2}Impacte de l'\IeC {\'u}s de l'aplicaci\IeC {\'o}}{44}{section.7.2}
-\contentsline {chapter}{\numberline {8}Estudi de costos}{45}{chapter.8}
-\contentsline {chapter}{\numberline {9}Conclusions}{47}{chapter.9}
-\contentsline {section}{\numberline {9.1}Futur de l'estudi/aplicaci\IeC {\'o}}{48}{section.9.1}
-\contentsline {chapter}{\numberline {10}Agra\IeC {\"\i }ments}{51}{chapter.10}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de baixa fidelitat}{30}{section*.56}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de mitja fidelitat}{30}{section*.57}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi del prototip d'alta fidelitat}{30}{section*.58}
+\contentsline {chapter}{\numberline {5}Parts rellevants de l'aplicaci\IeC {\'o}}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Problema del repartiment de despeses}{31}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Primera modelitzaci\IeC {\'o} del problema amb resoluci\IeC {\'o} exacte}{32}{subsection.5.1.1}
+\contentsline {subsubsection}{Dades}{32}{section*.62}
+\contentsline {subsubsection}{Variables}{33}{section*.63}
+\contentsline {subsubsection}{Restriccions}{33}{section*.64}
+\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{33}{section*.65}
+\contentsline {subsubsection}{Par\IeC {\`a}metres}{33}{section*.66}
+\contentsline {subsection}{\numberline {5.1.2}Modelitzaci\IeC {\'o} millorada amb resoluci\IeC {\'o} exacte}{33}{subsection.5.1.2}
+\contentsline {subsubsection}{Dades}{34}{section*.67}
+\contentsline {subsubsection}{Variables}{34}{section*.68}
+\contentsline {subsubsection}{Restriccions}{34}{section*.69}
+\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{34}{section*.70}
+\contentsline {subsubsection}{Par\IeC {\`a}metres}{34}{section*.71}
+\contentsline {subsubsection}{Post-proc\IeC {\'e}s}{35}{section*.72}
+\contentsline {subsection}{\numberline {5.1.3}Estudi del temps computacional de la modelitzaci\IeC {\'o} millorada}{35}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Algoritme final}{36}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Disseny de la base de dades}{37}{section.5.2}
+\contentsline {chapter}{\numberline {6}Impacte ambiental}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Impacte de l'estudi d'Experi\IeC {\`e}ncia d'Usuari}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}Impacte de l'\IeC {\'u}s de l'aplicaci\IeC {\'o}}{42}{section.6.2}
+\contentsline {chapter}{\numberline {7}Estudi de costos}{43}{chapter.7}
+\contentsline {chapter}{\numberline {8}Conclusions}{45}{chapter.8}
+\contentsline {section}{\numberline {8.1}Futur de l'estudi/aplicaci\IeC {\'o}}{46}{section.8.1}
+\contentsline {chapter}{\numberline {9}Agra\IeC {\"\i }ments}{49}{chapter.9}
