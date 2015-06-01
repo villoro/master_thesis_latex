@@ -1,4 +1,32 @@
-\chapter{Parts rellevants de l'aplicació}
+\chapter{Disseny de l'aplicació}
+Tot i que el disseny en general de l'aplicació no és rellevant per aquest projecte, si que es considera important destacar algunes parts d'aquesta, concretament el disseny de la base de dades i la resolució del problema del repartiment de despeses en grup.
+
+%TODO link codi
+
+
+\section{Disseny de la base de dades}
+A l'hora d'emmagatzemar les dades de la aplicació s'ha optat per fer servir \gls{SQLite} de forma local al \gls{smartphone} i fer ús del \gls{BAAS} Parse.com. Per tant s'ha dissenyat una base de dades local i una altre al núvol. La base de dades principal és la local i la del núvol està com a còpia de seguretat i per garantir la sincronització multidispositiu. Les taules que han de ser llegides per varies persones s'han partir en dues, una privada i una pública, al emmagatzemar-les al núvol de manera que el mínim d'informació és accessible per als usuaris que no l'han creat.
+
+A la figura \ref{fig:db_sqlite} es pot veure el disseny de la base de dades local, a la figura \ref{fig:db_parse} es pot veure la base de dades al núvol i a la figura \ref{fig:db_private_shared} és pot veure quines columnes són privades i quines públiques a cada taula. 
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.44]{db_sqlite.png}
+\caption{Base de dades local amb SQLite}\label{fig:db_sqlite}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.44]{db_parse.png}
+\caption{Base de dades al núvol amb Parse.com}\label{fig:db_parse}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=0.8]{db_private_shared.png}
+\caption{Columnes privades i compartides de cada taula}\label{fig:db_private_shared}
+\end{figure}
+
 
 \section{Problema del repartiment de despeses}
 Una de les funcions que ha de desenvolupar l'aplicació és fer una proposta sobre com solucionar els deutes existents entre els membres d'un grup. Tot i que en un principi es podria intentar resoldre pensant en les transaccions que ha fet cada membre, a l'hora de solucionar els deutes només cal tenir en compte el balanç de cada persona, tal com exposa David Vávra (creador de l'aplicació Settle Up [veure secció aplicacions \ref{sec:apps}]) a la seva Tesis final de Màster (2012, p. 6-7) \cite{Settle_up}.
@@ -188,25 +216,4 @@ Aquest temps d'execució elevat és degut al \gls{BB}. Per trobar una solució a
 \subsection{Algoritme final}
 Finalment s'ha decidit calcular la solució òptima, restringint el programa a un temps d'execució de 3 segons, juntament amb una la resolució heurística que proposa David Vávra (2012, p. 6-7) \cite{Settle_up}. Si en aquest temps el programa troba una solució factible, és compararà amb la solució heurística per veure quin té millor valor de la funció objectiu. Si amb la resolució òptima no s'arriba a una solució factible s'utilitzarà l'aconseguida amb l'heurística. 
 
-\section{Disseny de la base de dades}
-A l'hora d'emmagatzemar les dades de la aplicació s'ha optat per fer servir \gls{SQLite} de forma local al \gls{smartphone} i fer ús del \gls{BAAS} Parse.com. Per tant s'ha dissenyat una base de dades local i una altre al núvol. La base de dades principal és la local i la del núvol està com a còpia de seguretat i per garantir la sincronització multidispositiu. Les taules que han de ser llegides per varies persones s'han partir en dues, una privada i una pública, al emmagatzemar-les al núvol de manera que el mínim d'informació és accessible per als usuaris que no l'han creat.
 
-A la figura \ref{fig:db_sqlite} es pot veure el disseny de la base de dades local, a la figura \ref{fig:db_parse} es pot veure la base de dades al núvol i a la figura \ref{fig:db_private_shared} és pot veure quines columnes són privades i quines públiques a cada taula. 
-
-\begin{figure}[ht]
-\centering
-\includegraphics[scale=0.44]{db_sqlite.png}
-\caption{Base de dades local amb SQLite}\label{fig:db_sqlite}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[scale=0.44]{db_parse.png}
-\caption{Base de dades al núvol amb Parse.com}\label{fig:db_parse}
-\end{figure}
-
-\begin{figure}[ht]
-\centering
-\includegraphics[scale=0.8]{db_private_shared.png}
-\caption{Columnes privades i compartides de cada taula}\label{fig:db_private_shared}
-\end{figure}

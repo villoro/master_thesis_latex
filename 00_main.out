@@ -1,42 +1,44 @@
 \BOOKMARK [0][-]{chapter*.1}{Resum}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Acr\362nims}{}% 2
-\BOOKMARK [0][-]{chapter*.3}{Glossari}{}% 3
-\BOOKMARK [0][-]{chapter*.7}{Aplicacions \(Apps\)}{}% 4
-\BOOKMARK [0][-]{chapter*.8}{Prefaci}{}% 5
-\BOOKMARK [0][-]{chapter.1}{Introducci\363}{}% 6
-\BOOKMARK [1][-]{section.1.1}{Objectius del projecte}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.2}{Abast del projecte}{chapter.1}% 8
-\BOOKMARK [0][-]{chapter.2}{Experi\350ncia d'Usuari}{}% 9
-\BOOKMARK [1][-]{section.2.1}{Que s'ent\351n per Experi\350ncia d'Usuari}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.2}{Com s'estudia l'Experi\350ncia d'Usuari?}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.1}{An\340lisi}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.2}{Disseny}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.3}{Implementaci\363}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.4}{Avaluaci\363}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{El proc\351s iteratiu}{chapter.2}% 16
-\BOOKMARK [0][-]{chapter.3}{Estat de l'art}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Aplicacions existents}{chapter.3}% 18
-\BOOKMARK [0][-]{chapter.4}{Estudi d'Experi\350ncia d'Usuari \(UX\)}{}% 19
-\BOOKMARK [1][-]{section.4.1}{An\340lisi}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{Investigaci\363 contextual}{section.4.1}% 21
-\BOOKMARK [2][-]{subsection.4.1.2}{An\340lisi contextual}{section.4.1}% 22
-\BOOKMARK [2][-]{subsection.4.1.3}{Extracci\363 dels requeriments d'interacci\363}{section.4.1}% 23
-\BOOKMARK [2][-]{subsection.4.1.4}{Construcci\363 de models informatius per al disseny}{section.4.1}% 24
-\BOOKMARK [1][-]{section.4.2}{Disseny}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.3}{Implementaci\363}{chapter.4}% 26
-\BOOKMARK [1][-]{section.4.4}{Avaluaci\363}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.5}{El proc\351s iteratiu}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Parts rellevants de l'aplicaci\363}{}% 29
-\BOOKMARK [1][-]{section.5.1}{Problema del repartiment de despeses}{chapter.5}% 30
-\BOOKMARK [2][-]{subsection.5.1.1}{Primera modelitzaci\363 del problema amb resoluci\363 exacte}{section.5.1}% 31
-\BOOKMARK [2][-]{subsection.5.1.2}{Modelitzaci\363 millorada amb resoluci\363 exacte}{section.5.1}% 32
-\BOOKMARK [2][-]{subsection.5.1.3}{Estudi del temps computacional de la modelitzaci\363 millorada}{section.5.1}% 33
-\BOOKMARK [2][-]{subsection.5.1.4}{Algoritme final}{section.5.1}% 34
-\BOOKMARK [1][-]{section.5.2}{Disseny de la base de dades}{chapter.5}% 35
-\BOOKMARK [0][-]{chapter.6}{Impacte ambiental}{}% 36
-\BOOKMARK [1][-]{section.6.1}{Impacte de l'estudi d'Experi\350ncia d'Usuari}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.2}{Impacte de l'\372s de l'aplicaci\363}{chapter.6}% 38
-\BOOKMARK [0][-]{chapter.7}{Estudi de costos}{}% 39
-\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 40
-\BOOKMARK [1][-]{section.8.1}{Futur de l'estudi/aplicaci\363}{chapter.8}% 41
-\BOOKMARK [0][-]{chapter.9}{Agra\357ments}{}% 42
+\BOOKMARK [0][-]{chapter*.2}{Sumari}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{\315ndex de figures}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{\315ndex de taules}{}% 4
+\BOOKMARK [0][-]{chapter*.6}{Acr\362nims i Glossari}{}% 5
+\BOOKMARK [0][-]{chapter*.9}{Aplicacions \(Apps\)}{}% 6
+\BOOKMARK [0][-]{chapter*.10}{Prefaci}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introducci\363}{}% 8
+\BOOKMARK [1][-]{section.1.1}{Objectius del projecte}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.2}{Abast del projecte}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Experi\350ncia d'Usuari}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Que s'ent\351n per Experi\350ncia d'Usuari}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Com s'estudia l'Experi\350ncia d'Usuari?}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{An\340lisi}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Disseny}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Implementaci\363}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{Avaluaci\363}{section.2.2}% 17
+\BOOKMARK [1][-]{section.2.3}{El proc\351s iteratiu}{chapter.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Estat de l'art}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Aplicacions existents}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Estudi d'Experi\350ncia d'Usuari \(UX\)}{}% 21
+\BOOKMARK [1][-]{section.4.1}{An\340lisi}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.1.1}{Investigaci\363 contextual}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{An\340lisi contextual}{section.4.1}% 24
+\BOOKMARK [2][-]{subsection.4.1.3}{Extracci\363 dels requeriments d'interacci\363}{section.4.1}% 25
+\BOOKMARK [2][-]{subsection.4.1.4}{Construcci\363 de models informatius per al disseny}{section.4.1}% 26
+\BOOKMARK [1][-]{section.4.2}{Disseny}{chapter.4}% 27
+\BOOKMARK [1][-]{section.4.3}{Implementaci\363}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.4}{Avaluaci\363}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.5}{El proc\351s iteratiu}{chapter.4}% 30
+\BOOKMARK [0][-]{chapter.5}{Disseny de l'aplicaci\363}{}% 31
+\BOOKMARK [1][-]{section.5.1}{Disseny de la base de dades}{chapter.5}% 32
+\BOOKMARK [1][-]{section.5.2}{Problema del repartiment de despeses}{chapter.5}% 33
+\BOOKMARK [2][-]{subsection.5.2.1}{Primera modelitzaci\363 del problema amb resoluci\363 exacte}{section.5.2}% 34
+\BOOKMARK [2][-]{subsection.5.2.2}{Modelitzaci\363 millorada amb resoluci\363 exacte}{section.5.2}% 35
+\BOOKMARK [2][-]{subsection.5.2.3}{Estudi del temps computacional de la modelitzaci\363 millorada}{section.5.2}% 36
+\BOOKMARK [2][-]{subsection.5.2.4}{Algoritme final}{section.5.2}% 37
+\BOOKMARK [0][-]{chapter.6}{Impacte ambiental}{}% 38
+\BOOKMARK [1][-]{section.6.1}{Impacte de l'estudi d'Experi\350ncia d'Usuari}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.2}{Impacte de l'\372s de l'aplicaci\363}{chapter.6}% 40
+\BOOKMARK [0][-]{chapter.7}{Estudi de costos}{}% 41
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 42
+\BOOKMARK [1][-]{section.8.1}{Futur de l'estudi/aplicaci\363}{chapter.8}% 43
+\BOOKMARK [0][-]{chapter.9}{Agra\357ments}{}% 44
