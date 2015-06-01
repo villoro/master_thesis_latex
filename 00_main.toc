@@ -37,43 +37,43 @@
 \contentsline {chapter}{\numberline {4}Estudi d'Experi\IeC {\`e}ncia d'Usuari (UX)}{19}{chapter.4}
 \contentsline {section}{\numberline {4.1}An\IeC {\`a}lisi}{19}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Investigaci\IeC {\'o} contextual}{19}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}An\IeC {\`a}lisi contextual}{21}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Extracci\IeC {\'o} dels requeriments d'interacci\IeC {\'o}}{21}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Construcci\IeC {\'o} de models informatius per al disseny}{21}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.2}An\IeC {\`a}lisi contextual}{20}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Extracci\IeC {\'o} dels requeriments d'interacci\IeC {\'o}}{20}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Construcci\IeC {\'o} de models informatius per al disseny}{20}{subsection.4.1.4}
 \contentsline {section}{\numberline {4.2}Disseny}{21}{section.4.2}
-\contentsline {subsubsection}{Rex Cooper}{22}{section*.43}
-\contentsline {subsubsection}{Maria Gestalt}{22}{section*.45}
-\contentsline {section}{\numberline {4.3}Implementaci\IeC {\'o}}{23}{section.4.3}
-\contentsline {section}{\numberline {4.4}Avaluaci\IeC {\'o}}{23}{section.4.4}
-\contentsline {subsubsection}{\Gls {Av_formativa}}{23}{section*.50}
-\contentsline {subsubsection}{\Gls {Av_sumarial} 1}{27}{section*.52}
-\contentsline {subsubsection}{\Gls {Av_sumarial} 2}{29}{section*.55}
-\contentsline {section}{\numberline {4.5}El proc\IeC {\'e}s iteratiu}{30}{section.4.5}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de baixa fidelitat}{30}{section*.58}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de mitja fidelitat}{30}{section*.59}
-\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi del prototip d'alta fidelitat}{30}{section*.60}
+\contentsline {subsubsection}{Rex Cooper}{21}{section*.42}
+\contentsline {subsubsection}{Maria Gestalt}{21}{section*.44}
+\contentsline {section}{\numberline {4.3}Implementaci\IeC {\'o}}{22}{section.4.3}
+\contentsline {section}{\numberline {4.4}Avaluaci\IeC {\'o}}{22}{section.4.4}
+\contentsline {subsubsection}{\Gls {Av_formativa}}{26}{section*.49}
+\contentsline {subsubsection}{\Gls {Av_sumarial} 1}{27}{section*.51}
+\contentsline {subsubsection}{\Gls {Av_sumarial} 2}{28}{section*.54}
+\contentsline {section}{\numberline {4.5}El proc\IeC {\'e}s iteratiu}{28}{section.4.5}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de baixa fidelitat}{29}{section*.57}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi amb prototips de mitja fidelitat}{29}{section*.58}
+\contentsline {subsubsection}{Disseny i an\IeC {\`a}lisi del prototip d'alta fidelitat}{29}{section*.59}
 \contentsline {chapter}{\numberline {5}Disseny de l'aplicaci\IeC {\'o}}{31}{chapter.5}
 \contentsline {section}{\numberline {5.1}Disseny de la base de dades}{31}{section.5.1}
 \contentsline {section}{\numberline {5.2}Problema del repartiment de despeses}{31}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Primera modelitzaci\IeC {\'o} del problema amb resoluci\IeC {\'o} exacte}{34}{subsection.5.2.1}
-\contentsline {subsubsection}{Dades}{34}{section*.67}
-\contentsline {subsubsection}{Variables}{34}{section*.68}
-\contentsline {subsubsection}{Restriccions}{35}{section*.69}
-\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{35}{section*.70}
-\contentsline {subsubsection}{Par\IeC {\`a}metres}{35}{section*.71}
+\contentsline {subsubsection}{Dades}{34}{section*.66}
+\contentsline {subsubsection}{Variables}{34}{section*.67}
+\contentsline {subsubsection}{Restriccions}{35}{section*.68}
+\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{35}{section*.69}
+\contentsline {subsubsection}{Par\IeC {\`a}metres}{35}{section*.70}
 \contentsline {subsection}{\numberline {5.2.2}Modelitzaci\IeC {\'o} millorada amb resoluci\IeC {\'o} exacte}{35}{subsection.5.2.2}
-\contentsline {subsubsection}{Dades}{35}{section*.72}
-\contentsline {subsubsection}{Variables}{36}{section*.73}
-\contentsline {subsubsection}{Restriccions}{36}{section*.74}
-\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{36}{section*.75}
-\contentsline {subsubsection}{Par\IeC {\`a}metres}{36}{section*.76}
-\contentsline {subsubsection}{Post-proc\IeC {\'e}s}{36}{section*.77}
+\contentsline {subsubsection}{Dades}{35}{section*.71}
+\contentsline {subsubsection}{Variables}{36}{section*.72}
+\contentsline {subsubsection}{Restriccions}{36}{section*.73}
+\contentsline {subsubsection}{Funci\IeC {\'o} Objectiu}{36}{section*.74}
+\contentsline {subsubsection}{Par\IeC {\`a}metres}{36}{section*.75}
+\contentsline {subsubsection}{Post-proc\IeC {\'e}s}{36}{section*.76}
 \contentsline {subsection}{\numberline {5.2.3}Estudi del temps computacional de la modelitzaci\IeC {\'o} millorada}{37}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}Algoritme final}{38}{subsection.5.2.4}
 \contentsline {chapter}{\numberline {6}Impacte ambiental}{41}{chapter.6}
 \contentsline {section}{\numberline {6.1}Impacte de l'estudi d'Experi\IeC {\`e}ncia d'Usuari}{41}{section.6.1}
 \contentsline {section}{\numberline {6.2}Impacte de l'\IeC {\'u}s de l'aplicaci\IeC {\'o}}{42}{section.6.2}
 \contentsline {chapter}{\numberline {7}Estudi de costos}{43}{chapter.7}
-\contentsline {chapter}{\numberline {8}Conclusions}{45}{chapter.8}
-\contentsline {section}{\numberline {8.1}Futur de l'estudi/aplicaci\IeC {\'o}}{46}{section.8.1}
-\contentsline {chapter}{\numberline {9}Agra\IeC {\"\i }ments}{49}{chapter.9}
+\contentsline {chapter}{\numberline {8}Conclusions}{47}{chapter.8}
+\contentsline {section}{\numberline {8.1}Futur de l'estudi/aplicaci\IeC {\'o}}{48}{section.8.1}
+\contentsline {chapter}{\numberline {9}Agra\IeC {\"\i }ments}{51}{chapter.9}

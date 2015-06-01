@@ -1,19 +1,46 @@
 \chapter{Estudi de costos}
-Aquest projecte es basa en un estudi per a crear una aplicació i la implementació de varis prototips d'aquesta. Per a fer-ho no ha calgut la compra de cap tipus d'equipament, per tant el cost que se'n deriva d'aquest projecte és en recursos humans i el seu temps invertit. El projecte es pot separar en dos grans blocs, l'estudi en si i la implementació dels prototips o programació. A la taula \ref{table:cost} es pot veure el temps invertit en cada tasca i el cost que se'n deriva. Per tant el cost total en recursos humans és de 30.963 \euro . 
+En primer lloc a la figura \ref{fig:gantt} es pot veure la planificació de les diverses activitats d'aquest projecte en forma de diagrama de Gantt. L'execució real s'ha adequat a la planificació.
 
-\begin{table}
+\begin{figure}[ht]
 \centering
-\begin{tabular}{| c | c | c | c |}
-\hline
-\headB{Treball} & \headB{Hores} & \headB{Tarifa [\euro /h]} & \headB{Cost total [\euro]}\\
-\hline
-Estudi d'\ac{UX} & 281 & 60 & 16.845\\
-\hline
-Programació & 471 & 30 & 14.118 \\
-\hline
-\end{tabular}
-\caption{Hores invertides, tarifa i cost associat}
-\label{table:cost}
-\end{table}
+\includegraphics[scale=0.8]{Gantt.png}
+\caption{Diagrama de Gantt}\label{fig:gantt}
+\end{figure}
 
-En quan a el \textit{hardware} necessari per a la creació dels prototips programats ha calgut un ordinador i un \gls{smartphone} amb uns costos de 800 \euro  i 350 \euro  respectivament. Per tant el cost total del projecte s'eleva a 32.113 \euro .
+De les activitats principals de la figura \ref{fig:gantt} s'extreuen els diversos costos de personal. Per a cada activitat s'han comptabilitzat les hores invertides i, utilitzant el cost per hora, s'ha calculat el cost total de cada activitat, com es pot veure a la taula \ref{table:cost}. 
+
+A més del cost en recursos humans, també s'ha inclòs el cost dels aparells que s'han utilitzat. Per a calcular el cost unitari dels aparells s'ha comptabilitzat el temps que s'han fet servir respecte la seva vida útil. En quan a les llicencies, per a la de \textit{Microsoft Office} s'ha calculat de la mateixa manera que per als aparells. En canvi la llicencia de \textit{Google Play} té un preu únic a pagar per a registrar-s'hi. 
+
+Per al cost de l'energia emprada s'ha fet servir el consum elèctric calculat a l'apartat \ref{impacte}. Fent servir el cost mitjà del kWh a Espanya s'ha calculat el total referent a l'energia emprada.
+
+Finalment el cost total del projecte és de 32.811 \euro { calculat} amb un 21\% d'IVA. El càlcul es pot veure al detall a la taula \ref{table:cost}
+
+
+\begin{table}[htbp]
+  \centering
+    \begin{tabular}{| p{4cm} | r | p{3cm} | r | r | r |}
+    \hline \headB{Concepte} & \headB{Valor [\euro ]} & \headB{Vida útil [mesos]} & \headB{Unitats} & \headB{Cost unitari} & \headB{Total [\euro ]} \\
+    \hline \headA{Personal} & \headA{} & \headA{} & \headA{} & \headA{} & \headA{} \\ \hline
+    Redacció PFC &       &       & 66h    & 40 \euro /h   & 2640,00 \euro \\
+    Documentació estudis UX &       &       & 57h    & 40 \euro /h   & 2280,00 \euro \\
+    Dissenys parts de l'aplicació &       &       & 36h    & 50 \euro /h   & 1800,00 \euro \\
+    Estudi UX &       &       & 122h   & 50 \euro /h   & 6100,00 \euro \\
+    Programació &       &       & 471h   & 30 \euro /h   & 14130,00 \euro \\
+    
+    \hline \headA{Aparells} & \headA{} & \headA{} & \headA{} & \headA{} & \headA{} \\ \hline
+    Ordinador & 800   & 120   & 8 mesos    & 6,67 \euro /mes & 53,33 \euro \\
+    Smartphone Nexus 5 & 350   & 36    & 8 mesos  & 9,72 \euro /mes & 77,78 \euro\\
+    
+    \hline \headA{Llicencies} & \headA{} & \headA{} & \headA{} & \headA{} & \headA{} \\ \hline
+    Google play & 25 \euro   &       &       &       & 25,00 \euro \\
+    Microsoft Office 2013 & 119   & 60    &       & 1,98  & 0,00 \euro \\
+    
+    \hline \headA{Energia} & \headA{} & \headA{} & \headA{} & \headA{} & \headA{} \\ \hline
+    Electricitat &       &       & 89,33 kWh & 0,12 \euro /kWh & 10,72 \euro \\
+	\hline \headA{Subtotal} & \headA{} & \headA{} & \headA{} & \headA{} & \headA{27116,83 \euro} \\ \hline    
+    \hline \headB{Total (IVA 21\%)} & \headB{} & \headB{} & \headB{} & \headB{} & \headB{32811,37 \euro} \\ \hline
+    \end{tabular}%
+  \caption{Hores invertides, tarifa i cost associat}
+\label{table:cost}
+\end{table}%
+

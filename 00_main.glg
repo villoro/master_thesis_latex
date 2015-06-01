@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [MiKTeX 2.9] (kpathsea + Thai support).
 Scanning style file C:/Users/Arnau/Dropbox/UNI/PFC/Latex/00_main.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file 00_main.glo....done (71 entries accepted, 0 rejected).
-Sorting entries....done (445 comparisons).
-Generating output file 00_main.gls....done (77 lines written, 0 warnings).
+Scanning input file 00_main.glo....done (69 entries accepted, 0 rejected).
+Sorting entries....done (434 comparisons).
+Generating output file 00_main.gls....done (74 lines written, 0 warnings).
 Output written in 00_main.gls.
 Transcript written in 00_main.glg.

@@ -11,23 +11,23 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Puntuaci\IeC {\'o} de les aplicacions existents amb el questionari SUS\relax }}{18}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Plantilla emprada a la investigaci\IeC {\'o} contextual\relax }}{20}{figure.caption.41}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Model de flux\relax }}{21}{figure.caption.42}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Personatges creats. Imatges de: \url {http://www.freedigitalphotos.net/}\relax }}{22}{figure.caption.44}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Plantilla per a l'\gls {Av_formativa} \relax }}{27}{figure.caption.51}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resultats del questionari SUS per cada aplicaci\IeC {\'o}\relax }}{28}{figure.caption.53}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resultats del questionari SUS per cada aplicaci\IeC {\'o} i cada pregunta\relax }}{28}{figure.caption.54}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Resultats del questionari USE per cada aplicaci\IeC {\'o}\relax }}{29}{figure.caption.56}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Resultats del questionari USE de cada secci\IeC {\'o} per cada aplicaci\IeC {\'o}\relax }}{29}{figure.caption.57}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Model de flux\relax }}{20}{figure.caption.41}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Personatges creats. Imatges de: \url {http://www.freedigitalphotos.net/}\relax }}{21}{figure.caption.43}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Plantilla per a l'\gls {Av_formativa} \relax }}{26}{figure.caption.50}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resultats del q\IeC {\"u}estionari SUS per cada aplicaci\IeC {\'o}\relax }}{27}{figure.caption.52}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resultats del q\IeC {\"u}estionari SUS per cada aplicaci\IeC {\'o} i cada pregunta\relax }}{27}{figure.caption.53}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resultats del q\IeC {\"u}estionari USE per cada aplicaci\IeC {\'o}\relax }}{28}{figure.caption.55}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resultats del q\IeC {\"u}estionari USE de cada secci\IeC {\'o} per cada aplicaci\IeC {\'o}\relax }}{29}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Base de dades local amb SQLite\relax }}{32}{figure.caption.61}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Base de dades al n\IeC {\'u}vol amb Parse.com\relax }}{33}{figure.caption.62}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Columnes privades i compartides de cada taula\relax }}{34}{figure.caption.63}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de nodes (N)\relax }}{37}{figure.caption.78}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de nodes (N)\relax }}{38}{figure.caption.79}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de creditors (NC) i dels deutors (ND)\relax }}{39}{figure.caption.80}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Base de dades local amb SQLite\relax }}{32}{figure.caption.60}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Base de dades al n\IeC {\'u}vol amb Parse.com\relax }}{33}{figure.caption.61}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Columnes privades i compartides de cada taula\relax }}{34}{figure.caption.62}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de nodes (N)\relax }}{37}{figure.caption.77}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de nodes (N)\relax }}{38}{figure.caption.78}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Temps per resoldre el PLEM en funci\IeC {\'o} del nombre de creditors (NC) i dels deutors (ND)\relax }}{39}{figure.caption.79}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Temps invertit i consum associat\relax }}{42}{figure.caption.82}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Temps invertit i consum associat\relax }}{42}{figure.caption.81}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Diagrama de Gantt\relax }}{45}{figure.caption.82}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
