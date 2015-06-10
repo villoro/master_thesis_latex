@@ -79,7 +79,7 @@ Elena & -15,07 \\
 
 Es pot veure que la Berta, la Càrol i l'Elena vindrien a ser les fàbriques i que l'Arnau i el David els magatzems als quals s'han d'enviar els diners. A la taula \ref{table:resolution} es mostra el problema juntament amb una solució possible.
 
-Cal notar que degut a arrodoniments al calcular quan ha gastat cada persona en cada transacció es possible que la suma de tots els balanços no sigui 0. S'ha optat per beneficiar als creditors, de manera que tots els deutors paguin tot el que els correspon i que els creditors cobrin tot el que han deixat com a mínim, i si s'escau, alguns decimals de més.
+Cal notar que degut a arrodoniments al calcular quan ha gastat cada persona en cada transacció és possible que la suma de tots els balanços no sigui 0. S'ha optat per beneficiar als creditors, de manera que tots els deutors paguin tot el que els correspon i que els creditors cobrin tot el que han deixat com a mínim, i si s'escau, alguns decimals de més.
 
 David Vávra proposa solucionar el problema minimitzant només el nombre de transaccions total que s'hauran d'efectuar. Per a fer-ho proposa fer servir un mètode heurístic i posteriorment, si el nombre de persones del grup no es molt elevat, buscar la solució òptima. Per a trobar-la calcula totes les possibilitats. Aquesta manera de resoldre no és el més eficient possible. A més, si s'analitza en més profunditat el problema es pot veure que un bon repartiment no només ha de minimitzar el nombre total de transaccions. Entre altres aspectes que es poden tenir en compte, un bon repartiment serà aquell que:
 
@@ -93,7 +93,7 @@ Una manera de resoldre el problema tenint en compte aquests nous objectius és f
 %TODO glossary
 
 \subsection{Primera modelització del problema amb resolució exacte}
-A continuació es modelarà el problema de solucionar els deutes d'un grup. Per a fer-ho només es buscara que minimitzi el nombre màxim de transaccions totals i el de transaccions que ha de fer una sola persona. Si bé, com ja s'ha dit, una bona solució també tindria en compte l'afinitat entre persones, això és més difícil de modelar i de descobrir sense forçar als usuaris a introduir molta informació. Tot i això la modelització serà prou flexible per a que si en un futur es vol afegir aquest objectiu, és pugui. 
+A continuació es modelarà el problema de solucionar els deutes d'un grup. Per a fer-ho només es buscara que minimitzi el nombre màxim de transaccions totals i el de transaccions que ha de fer una sola persona. Si bé, com ja s'ha dit, una bona solució també tindria en compte l'afinitat entre persones, això és més difícil de modelar i de descobrir sense forçar als usuaris a introduir molta informació. Tot i això la modelització serà prou flexible per a que si en un futur es vol afegir aquest objectiu, es pugui. 
 \subsubsection{Dades}
 \begin{description}
 \item NC = nombre de creditors
@@ -132,7 +132,7 @@ $\lambda$ = usat per decidir el pes a la funció objectiu de cada part
 
 \subsection{Modelització millorada amb resolució exacte}
 La modelització anterior en alguns casos no trobava una solució factible, degut als arrodoniments a l'hora de calcular els balanços (pas previ a la solució del \ac{PLEM}).
-La idea general d'aquesta modelització es calcular els diners que un deutor pagà a un creditor que formen part del deute per una banda i per l'altre els diners extra que ha de pagar (tot i que no li corresponen). Aquests diners extra sortiran a la funció objectiu amb una penalització molt elevada per tal que al resoldre el \ac{PLEM} només siguin més grans de zero en cas de ser necessari. Vist per la banda dels creditors es farà el mateix, es calcularà els diners extra que han de rebre per tal que els deutors paguin el necessari. De fet aquestes dues variables corresponen a les variables de marge associades a la primera i segona restricció respectivament.
+La idea general d'aquesta modelització es calcular els diners que un deutor pagà a un creditor que formen part del deute per una banda i per l'altre els diners extra que ha de pagar (tot i que no li corresponen). Aquests diners extra sortiran a la funció objectiu amb una penalització molt elevada per tal que al resoldre el \ac{PLEM} només siguin més grans de zero en cas de ser necessari. Vist per la banda dels creditors es farà el mateix, es calcularan els diners extra que han de rebre per tal que els deutors paguin el necessari. De fet aquestes dues variables corresponen a les variables de marge associades a la primera i segona restricció respectivament.
 
 \subsubsection{Dades}
 \begin{description}

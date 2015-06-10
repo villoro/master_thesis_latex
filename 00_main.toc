@@ -1,10 +1,10 @@
-\contentsline {chapter}{Resum}{iii}{chapter*.1}
-\contentsline {chapter}{Sumari}{vii}{chapter*.2}
-\contentsline {chapter}{\IeC {\'I}ndex de figures}{x}{chapter*.3}
-\contentsline {chapter}{\IeC {\'I}ndex de taules}{xi}{chapter*.5}
-\contentsline {chapter}{Acr\IeC {\`o}nims i Glossari}{xiii}{chapter*.6}
-\contentsline {chapter}{Aplicacions (Apps)}{xvii}{chapter*.9}
-\contentsline {chapter}{Prefaci}{xix}{chapter*.10}
+\contentsline {chapter}{Resum}{i}{chapter*.1}
+\contentsline {chapter}{Sumari}{v}{chapter*.2}
+\contentsline {chapter}{\IeC {\'I}ndex de figures}{viii}{chapter*.3}
+\contentsline {chapter}{\IeC {\'I}ndex de taules}{ix}{chapter*.5}
+\contentsline {chapter}{Acr\IeC {\`o}nims i Glossari}{xi}{chapter*.6}
+\contentsline {chapter}{Aplicacions (Apps)}{xv}{chapter*.9}
+\contentsline {chapter}{Prefaci}{xvii}{chapter*.10}
 \contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Objectius del projecte}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Abast del projecte}{2}{section.1.2}
